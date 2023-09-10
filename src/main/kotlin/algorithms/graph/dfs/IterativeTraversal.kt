@@ -1,35 +1,36 @@
-package algorithms.graph.bfs.traversal
+package algorithms.graph.dfs.traversal.iterative
 
 typealias Graph<T> = Map<T, List<T>>
 
-typealias Queue<T> = ArrayDeque<T>
+typealias Stack<T> = ArrayDeque<T>
 
 fun <T> Graph<T>.traverse(root: T): List<T> {
     val graph = this
     require(root in graph) { "Invalid root vertex '$root'" }
 
     val explored = linkedSetOf<T>()
-    val queue = Queue<T>()
-    queue += root
+    val stack = Stack<T>()
+    stack += root
 
-    while (queue.isNotEmpty()) {
-        val vertex = queue.removeFirst()
+    while (stack.isNotEmpty()) {
+        val vertex = stack.removeLast()
         if (vertex !in explored) {
             explored += vertex
-            queue += graph[vertex].orEmpty()
+            stack += graph[vertex].orEmpty()
         }
     }
 
     return explored.toList()
 }
 
+
 fun main() {
     val graph = mapOf(
         // first subgraph
-        "A" to listOf("B", "C", "D"),
-        "B" to listOf("E"),
-        "C" to listOf("F", "G"),
-        "F" to listOf("H", "I"),
+        "A" to listOf("I", "F", "B"),
+        "B" to listOf("C"),
+        "C" to listOf("E", "D"),
+        "F" to listOf("H", "G"),
 
         // second subgraph
         "J" to listOf("K", "L", "M"),
