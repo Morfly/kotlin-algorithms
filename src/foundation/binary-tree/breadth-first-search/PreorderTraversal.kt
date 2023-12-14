@@ -12,6 +12,8 @@ fun <T> BinaryTree<T>.traverse(): List<T> {
     fun traverse(node: BinaryTree<T>?) {
         if (node == null) return
 
+        println(node.value)
+
         explored += node.value
         traverse(node.left)
         traverse(node.right)
