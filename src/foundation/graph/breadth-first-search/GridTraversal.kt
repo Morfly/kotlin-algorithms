@@ -52,6 +52,5 @@ fun main() {
     val result = graph.traverse(rootRow = 1, rootCol = 1)
 
     println(result)
-
     require(result == listOf("A", "B", "C", "D", "E", "F", "G", "H", "I"))
 }

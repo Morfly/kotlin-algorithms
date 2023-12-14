@@ -49,7 +49,6 @@ fun main() {
 
     val result = graph.shortestPath(root = "A", target = "E")
 
-    println(result) // [A, B, E]
-
+    println(result)
     require(result == listOf("A", "B", "E"))
 }
