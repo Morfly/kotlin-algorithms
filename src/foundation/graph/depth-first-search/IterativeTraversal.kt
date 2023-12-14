@@ -1,4 +1,4 @@
-package foundation.graph.dfs.traversal.iterative
+package foundation.graph.`depth-first-search`.traversal.iterative
 
 typealias Graph<T> = Map<T, List<T>>
 

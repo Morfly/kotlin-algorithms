@@ -1,4 +1,4 @@
-package foundation.graph.bfs.search
+package foundation.graph.`breadth-first-search`.search
 
 typealias Graph<T> = Map<T, List<T>>
 

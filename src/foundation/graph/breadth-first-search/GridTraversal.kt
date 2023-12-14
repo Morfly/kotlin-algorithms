@@ -1,4 +1,4 @@
-package foundation.graph.bfs.grid
+package foundation.graph.`breadth-first-search`.grid
 
 typealias Graph<T> = Array<Array<out T>>
 
