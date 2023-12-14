@@ -5,6 +5,8 @@
 ### Foundation
 
 - [Search](src/foundation/search)
+  - [Linear search](src/foundation/search/linear)
+  - [Binary search](src/foundation/search/binary)
 - [Graph](src/foundation/graph)
     - [Breadth-first search](src/foundation/graph/breadth-first-search)
     - [Depth-first search](src/foundation/graph/depth-first-search)
