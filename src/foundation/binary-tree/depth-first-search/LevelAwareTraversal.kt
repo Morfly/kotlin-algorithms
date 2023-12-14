@@ -1,4 +1,4 @@
-package foundation.`binary-tree`.`breadth-first-search`.`level-aware`
+package foundation.`binary-tree`.`depth-first-search`.`level-aware`
 
 class BinaryTree<T>(
     val value: T,

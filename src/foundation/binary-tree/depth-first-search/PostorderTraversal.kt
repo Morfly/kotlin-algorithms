@@ -1,4 +1,4 @@
-package foundation.`binary-tree`.`breadth-first-search`.postorder
+package foundation.`binary-tree`.`depth-first-search`.postorder
 
 class BinaryTree<T>(
     val value: T,

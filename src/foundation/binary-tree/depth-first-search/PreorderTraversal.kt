@@ -1,4 +1,4 @@
-package foundation.`binary-tree`.`breadth-first-search`.inorder
+package foundation.`binary-tree`.`depth-first-search`.preorder
 
 class BinaryTree<T>(
     val value: T,
@@ -11,8 +11,11 @@ fun <T> BinaryTree<T>.traverse(): List<T> {
 
     fun traverse(node: BinaryTree<T>?) {
         if (node == null) return
-        traverse(node.left)
+
+        println(node.value)
+
         explored += node.value
+        traverse(node.left)
         traverse(node.right)
     }
     traverse(this)
@@ -21,10 +24,10 @@ fun <T> BinaryTree<T>.traverse(): List<T> {
 }
 
 fun main() {
-    val tree = node(4) {
+    val tree = node(1) {
         left = node(2) {
-            left = node(1)
-            right = node(3)
+            left = node(3)
+            right = node(4)
         }
         right = node(5)
     }
