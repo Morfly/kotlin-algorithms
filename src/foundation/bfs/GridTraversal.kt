@@ -1,4 +1,4 @@
-package algorithms.graph.bfs.grid
+package foundation.graph.bfs.grid
 
 typealias Graph<T> = Array<Array<out T>>
 
@@ -6,7 +6,7 @@ typealias Queue = ArrayDeque<Pair<Int, Int>>
 
 // left, up, right, down
 val directions = arrayOf(0 to -1, -1 to 0, 0 to 1, 1 to 0)
-
+// exercises
 fun <T> Graph<T>.traverse(rootRow: Int, rootCol: Int): List<T> {
     val graph = this
     val rows = graph.size

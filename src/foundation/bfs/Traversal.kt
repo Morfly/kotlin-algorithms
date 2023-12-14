@@ -1,4 +1,4 @@
-package algorithms.graph.bfs.traversal
+package foundation.graph.bfs.traversal
 
 typealias Graph<T> = Map<T, List<T>>
 
