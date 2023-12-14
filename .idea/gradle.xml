@@ -8,11 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/exercises" />
-            <option value="$PROJECT_DIR$/exercises/leetcode" />
-            <option value="$PROJECT_DIR$/foundation" />
-            <option value="$PROJECT_DIR$/foundation/algorithms" />
-            <option value="$PROJECT_DIR$/foundation/data-structures" />
           </set>
         </option>
       </GradleProjectSettings>

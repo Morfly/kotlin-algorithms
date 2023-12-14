@@ -16,9 +16,3 @@ plugins {
 }
 
 rootProject.name = "kotlin-algorithms"
-
-include(
-    ":foundation:algorithms",
-    ":foundation:data-structures",
-    ":exercises:leetcode",
-)
