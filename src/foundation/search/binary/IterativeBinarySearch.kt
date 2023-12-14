@@ -1,4 +1,4 @@
-package foundation.search.binary
+package foundation.search.binary.iterative
 
 fun IntArray.search(value: Int): Int {
     var start = 0
