@@ -8,9 +8,9 @@
 - [Graph](src/foundation/graph)
     - [Breadth-first search](src/foundation/graph/breadth-first-search)
     - [Depth-first search](src/foundation/graph/depth-first-search)
-- Binary tree
+- [Binary tree](src/foundation/binary-tree)
     - [Breadth-first search](src/foundation/binary-tree/breadth-first-search)
     - [Depth-first search](src/foundation/binary-tree/depth-first-search)
-- Binary-search tree
+- [Binary search tree](src/foundation/binary-search-tree)
 
 ### LeetCode
