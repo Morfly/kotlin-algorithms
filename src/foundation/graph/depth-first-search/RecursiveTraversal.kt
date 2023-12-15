@@ -2,7 +2,6 @@ package foundation.graph.`depth-first-search`.recursive
 
 typealias Graph<T> = Map<T, List<T>>
 
-
 fun <T> Graph<T>.traverse(root: T): List<T> {
     val graph = this
     require(root in graph) { "Invalid root vertex '$root'" }
@@ -19,7 +18,6 @@ fun <T> Graph<T>.traverse(root: T): List<T> {
     }
     explore(root)
 
-    // this implementation also explores disconnected subgraphs
     for ((vertex, _) in graph) {
         if (vertex !in explored) {
             explore(vertex)
