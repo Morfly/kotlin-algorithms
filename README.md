@@ -11,9 +11,12 @@
     - [Breadth-first search](src/foundation/graph/breadth-first-search)
     - [Depth-first search](src/foundation/graph/depth-first-search)
     - [Dijkstra](src/foundation/graph/dijkstra)
+    - [Topological sort](src/foundation/graph/topological-sort)
 - [Binary tree](src/foundation/binary-tree)
     - [Breadth-first search](src/foundation/binary-tree/breadth-first-search)
     - [Depth-first search](src/foundation/binary-tree/depth-first-search)
 - [Binary search tree](src/foundation/binary-search-tree)
 
 ### LeetCode
+
+- [1. Two Sum](src/leetcode/1-two-sum.kt)
