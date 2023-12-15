@@ -10,7 +10,7 @@
 - [Graph](src/foundation/graph)
     - [Breadth-first search](src/foundation/graph/breadth-first-search)
     - [Depth-first search](src/foundation/graph/depth-first-search)
-    - [Dijkstra](src/foundation/graph/dijkstra)
+    - [Dijkstra's algorithm](src/foundation/graph/dijkstra)
     - [Topological sort](src/foundation/graph/topological-sort)
         - [Depth-first search](src/foundation/graph/topological-sort/DfsTopologicalSort.kt)
         - [Kahn's algorithm](src/foundation/graph/topological-sort/KahnTopologicalSort.kt)
