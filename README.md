@@ -10,6 +10,7 @@
 - [Graph](src/foundation/graph)
     - [Breadth-first search](src/foundation/graph/breadth-first-search)
     - [Depth-first search](src/foundation/graph/depth-first-search)
+    - [Dijkstra](src/foundation/graph/dijkstra)
 - [Binary tree](src/foundation/binary-tree)
     - [Breadth-first search](src/foundation/binary-tree/breadth-first-search)
     - [Depth-first search](src/foundation/binary-tree/depth-first-search)
