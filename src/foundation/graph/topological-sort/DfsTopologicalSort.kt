@@ -2,35 +2,44 @@ package foundation.graph.`topological-sort`
 
 typealias Graph<T> = Map<T, List<T>>
 
-fun <T> Graph<T>.traverse(root: T): List<T> {
+fun <T> Graph<T>.topologicalSort(): List<T> {
     val graph = this
-    require(root in graph) { "Invalid root vertex '$root'" }
-
     val explored = mutableSetOf<T>()
+    val result = mutableListOf<T>()
 
     fun explore(vertex: T) {
         explored += vertex
         for (successor in graph[vertex].orEmpty()) {
-            if (successor != explored) {
+            if (successor !in explored) {
                 explore(successor)
+            } else if (successor !in result) {
+                error("Graph contains a cycle, topological sort not possible!")
             }
         }
+        result += vertex
     }
-    explore(root)
 
-    return explored.reversed()
+    for ((vertex, _) in graph) {
+        if (vertex !in explored) {
+            explore(vertex)
+        }
+    }
+
+    return result.asReversed()
 }
 
+
 fun main() {
+    // u → v means v depends on u
     val graph = mapOf(
-        "A" to listOf("B", "F", "I"),
+        "A" to listOf("I", "F", "B"),
         "B" to listOf("C"),
-        "C" to listOf("D", "E"),
-        "F" to listOf("G", "H"),
+        "C" to listOf("E", "D"),
+        "F" to listOf("H", "G"),
     )
 
-    val result = graph.traverse(root = "A")
+    val result = graph.topologicalSort()
 
     println(result)
-    require(result == listOf("I", "H", "G", "F", "E", "D", "C", "B", "A"))
+    require(result == listOf("A", "B", "C", "D", "E", "F", "G", "H", "I"))
 }
