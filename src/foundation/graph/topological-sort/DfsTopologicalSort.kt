@@ -1,4 +1,4 @@
-package foundation.graph.`topological-sort`
+package foundation.graph.`topological-sort`.dfs
 
 typealias Graph<T> = Map<T, List<T>>
 
@@ -27,7 +27,6 @@ fun <T> Graph<T>.topologicalSort(): List<T> {
 
     return result.asReversed()
 }
-
 
 fun main() {
     // u → v means v depends on u

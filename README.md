@@ -5,13 +5,15 @@
 ### Foundation
 
 - [Search](src/foundation/search)
-  - [Linear search](src/foundation/search/linear)
-  - [Binary search](src/foundation/search/binary)
+    - [Linear search](src/foundation/search/linear)
+    - [Binary search](src/foundation/search/binary)
 - [Graph](src/foundation/graph)
     - [Breadth-first search](src/foundation/graph/breadth-first-search)
     - [Depth-first search](src/foundation/graph/depth-first-search)
     - [Dijkstra](src/foundation/graph/dijkstra)
     - [Topological sort](src/foundation/graph/topological-sort)
+        - [Depth-first search](src/foundation/graph/topological-sort/DfsTopologicalSort.kt)
+        - [Kahn's algorithm](src/foundation/graph/topological-sort/KahnTopologicalSort.kt)
 - [Binary tree](src/foundation/binary-tree)
     - [Breadth-first search](src/foundation/binary-tree/breadth-first-search)
     - [Depth-first search](src/foundation/binary-tree/depth-first-search)
