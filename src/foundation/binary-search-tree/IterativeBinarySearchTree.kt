@@ -35,10 +35,6 @@ class BinarySearchTree(val value: Int) {
         }
         return false
     }
-
-    fun delete(value: Int): BinarySearchTree {
-        return this
-    }
 }
 
 fun main() {

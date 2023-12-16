@@ -1,10 +1,8 @@
 package foundation.`binary-search-tree`.recursive
 
-class BinarySearchTree(val value: Int) {
+class BinarySearchTree(var value: Int) {
     var left: BinarySearchTree? = null
-        private set
     var right: BinarySearchTree? = null
-        private set
 
     fun insert(value: Int) {
         if (value < this.value) {
@@ -24,6 +22,22 @@ class BinarySearchTree(val value: Int) {
         }
 
     fun delete(value: Int): BinarySearchTree {
+        when {
+            value > this.value -> right = right?.delete(value)
+            value < this.value -> left = left?.delete(value)
+            else -> when {
+                left == null -> right
+                right == null -> left
+                else -> {
+                    var curr = right!!
+                    while (curr.left != null) {
+                        curr = curr.left!!
+                    }
+                    this.value = curr.value
+                    right = right?.delete(value)
+                }
+            }
+        }
         return this
     }
 }
