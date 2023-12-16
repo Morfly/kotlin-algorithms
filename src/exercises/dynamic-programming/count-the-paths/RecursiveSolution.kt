@@ -2,6 +2,7 @@ package exercises.`dynamic-programming`.`count-the-paths`.recursive
 
 typealias Grid = Array<IntArray>
 
+// https://youtu.be/P8Xa2BitN3I?si=B8TuILrrz_2IJfCl
 fun countPaths(grid: Grid): Int {
     val mem = Array(grid.size) { IntArray(grid[0].size) { 0 } }
 
