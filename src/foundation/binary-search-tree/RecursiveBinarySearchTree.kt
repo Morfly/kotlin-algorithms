@@ -1,5 +1,8 @@
 package foundation.`binary-search-tree`.recursive
 
+import io.morfly.tools.print
+import io.morfly.tools.printBinaryTree
+
 class BinarySearchTree(var value: Int) {
     var left: BinarySearchTree? = null
     var right: BinarySearchTree? = null
@@ -49,4 +52,9 @@ fun main() {
         insert(4)
         insert(2)
     }
+
+    tree.printBinaryTree()
+    tree.insert(10)
+    tree.printBinaryTree()
+    tree.delete(3).printBinaryTree()
 }

@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.kotlin.jvm)
+    kotlin("jvm")
 }
 
 sourceSets {
@@ -9,5 +9,5 @@ sourceSets {
 }
 
 dependencies {
-    implementation(projects.tools)
+    implementation(libs.kotlin.reflect)
 }
