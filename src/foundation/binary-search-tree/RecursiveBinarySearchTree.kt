@@ -1,42 +1,41 @@
 package foundation.`binary-search-tree`.recursive
 
-import io.morfly.tools.print
 import io.morfly.tools.printBinaryTree
 
 class BinarySearchTree(var value: Int) {
     var left: BinarySearchTree? = null
     var right: BinarySearchTree? = null
 
-    fun insert(value: Int) {
-        if (value < this.value) {
-            if (left == null) left = BinarySearchTree(value)
-            else left!!.insert(value)
+    fun insert(key: Int) {
+        if (key < this.value) {
+            if (left == null) left = BinarySearchTree(key)
+            else left!!.insert(key)
         } else {
-            if (right == null) right = BinarySearchTree(value)
-            else right!!.insert(value)
+            if (right == null) right = BinarySearchTree(key)
+            else right!!.insert(key)
         }
     }
 
-    operator fun contains(value: Int): Boolean =
+    operator fun contains(key: Int): Boolean =
         when {
-            value < this.value -> left?.contains(value) ?: false
-            value > this.value -> right?.contains(value) ?: false
+            key < value -> left?.contains(key) ?: false
+            key > value -> right?.contains(key) ?: false
             else -> true
         }
 
-    fun delete(value: Int): BinarySearchTree {
+    fun delete(key: Int): BinarySearchTree? {
         when {
-            value > this.value -> right = right?.delete(value)
-            value < this.value -> left = left?.delete(value)
+            key > value -> right = right?.delete(key)
+            key < value -> left = left?.delete(key)
             else -> when {
-                left == null -> right
-                right == null -> left
+                left == null -> return right
+                right == null -> return left
                 else -> {
                     var curr = right!!
                     while (curr.left != null) {
                         curr = curr.left!!
                     }
-                    this.value = curr.value
+                    value = curr.value
                     right = right?.delete(value)
                 }
             }
@@ -47,14 +46,16 @@ class BinarySearchTree(var value: Int) {
 
 fun main() {
     val tree = BinarySearchTree(3).apply {
-        insert(5)
+        insert(6)
         insert(1)
         insert(4)
+        insert(7)
         insert(2)
     }
+    tree.printBinaryTree()
 
+    tree.insert(5)
     tree.printBinaryTree()
-    tree.insert(10)
-    tree.printBinaryTree()
-    tree.delete(3).printBinaryTree()
+
+    tree.delete(6)?.printBinaryTree()
 }
