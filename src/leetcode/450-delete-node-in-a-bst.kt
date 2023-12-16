@@ -17,11 +17,11 @@ fun deleteNode(root: TreeNode?, key: Int): TreeNode? {
             root.left == null -> return root.right
             root.right == null -> return root.left
             else -> {
-                var curr = root.right
-                while (curr?.left != null) {
-                    curr = curr.left
+                var curr = root.right!!
+                while (curr.left != null) {
+                    curr = curr.left!!
                 }
-                root.`val` = curr!!.`val`
+                root.`val` = curr.`val`
                 root.right = deleteNode(root.right, root.`val`)
             }
         }
