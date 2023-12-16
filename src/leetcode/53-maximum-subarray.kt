@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.`53`
 
 import kotlin.math.max
 
