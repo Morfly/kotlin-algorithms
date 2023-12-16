@@ -19,6 +19,11 @@
     - [Depth-first search](src/foundation/binary-tree/depth-first-search)
 - [Binary search tree](src/foundation/binary-search-tree)
 
+### Exercises
+
+- [Dynamic programming](src/exercises/dynamic-programming)
+    - [Fibonacci sequence](src/exercises/dynamic-programming/fibonacci.kt)
+
 ### LeetCode
 
 - [1. Two Sum](src/leetcode/1-two-sum.kt)
