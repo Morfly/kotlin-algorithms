@@ -35,11 +35,11 @@ fun minSpanningTree(edges: List<Edge>): List<Edge> {
 
 fun main() {
     val edges = listOf(
-        Edge(src = 5, dest = 1, weight = 4),
-        Edge(src = 5, dest = 4, weight = 9),
         Edge(src = 1, dest = 4, weight = 1),
         Edge(src = 1, dest = 2, weight = 2),
         Edge(src = 2, dest = 4, weight = 3),
+        Edge(src = 5, dest = 4, weight = 9),
+        Edge(src = 5, dest = 1, weight = 4),
         Edge(src = 2, dest = 3, weight = 3),
         Edge(src = 3, dest = 4, weight = 5),
         Edge(src = 2, dest = 6, weight = 7),
@@ -49,5 +49,13 @@ fun main() {
     val result = minSpanningTree(edges)
 
     println(result)
-    require(result == listOf(Edge(2, 3, 4), Edge(0, 3, 5), Edge(0, 1, 10)))
+    require(
+        result == listOf(
+            Edge(src = 1, dest = 4, weight = 1),
+            Edge(src = 1, dest = 2, weight = 2),
+            Edge(src = 2, dest = 3, weight = 3),
+            Edge(src = 5, dest = 1, weight = 4),
+            Edge(src = 2, dest = 6, weight = 7)
+        )
+    )
 }
