@@ -3,8 +3,8 @@ package foundation.`disjoint-set-union`
 // https://youtu.be/ayW5B2W9hfo?si=WaGAHuPu0ggW7vv3
 // https://cp-algorithms.com/data_structures/disjoint_set_union.html
 class DisjointSet(size: Int) {
-    val parent = IntArray(size) { it }
-    val rank = IntArray(size) { 0 }
+    private val parent = IntArray(size) { it }
+    private val rank = IntArray(size) { 0 }
 
     fun find(p: Int): Int {
         if (parent[p] != p) {
@@ -44,5 +44,4 @@ fun main() {
 
     disjointSet.union(3, 4)
     require(disjointSet.connected(1, 5))
-
 }
