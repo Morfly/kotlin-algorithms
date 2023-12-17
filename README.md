@@ -18,7 +18,9 @@
     - [Breadth-first search](src/foundation/binary-tree/breadth-first-search)
     - [Depth-first search](src/foundation/binary-tree/depth-first-search)
 - [Binary search tree](src/foundation/binary-search-tree)
-- [Disjoint set union](src/foundation/disjoint-set-union/disjoint-set.kt)
+- [Disjoint set union](src/foundation/disjoint-set-union/disjoint-set-union.kt)
+- [Minimum spanning tree](src/foundation/minimum-spanning-tree)
+    - [Kruskal's algorithm](src/foundation/minimum-spanning-tree/kruskal)
 - [Sorting](src/foundation/sorting)
     - [Bubble sort](src/foundation/sorting/bubble-sort/bubble-sort.kt)
     - Merge sort
