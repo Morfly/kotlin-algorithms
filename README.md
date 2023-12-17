@@ -20,11 +20,10 @@
 - [Binary search tree](src/foundation/binary-search-tree)
 - [Sorting](src/foundation/sorting)
     - [Bubble sort](src/foundation/sorting/bubble-sort/bubble-sort.kt)
-    - [Merge sort](src/foundation/sorting/merge-sort/merge-sort.kt)
-    - [Quick sort]()
-    - [Shell sort]()
-    - [Insertion sort]()
-    - Others... 
+    - Merge sort
+    - Quick sort
+    - Shell sort
+    - Insertion sort
 
 ### Exercises
 
