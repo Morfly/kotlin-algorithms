@@ -18,6 +18,7 @@
     - [Breadth-first search](src/foundation/binary-tree/breadth-first-search)
     - [Depth-first search](src/foundation/binary-tree/depth-first-search)
 - [Binary search tree](src/foundation/binary-search-tree)
+- [Disjoint set union](src/foundation/disjoint-set-union/disjoint-set.kt)
 - [Sorting](src/foundation/sorting)
     - [Bubble sort](src/foundation/sorting/bubble-sort/bubble-sort.kt)
     - Merge sort
