@@ -29,4 +29,5 @@
 - [1. Two Sum](src/leetcode/1-two-sum.kt)
 - [53. Maximum Subarray](src/leetcode/53-maximum-subarray.kt)
 - [152. Maximum Product Subarray](src/leetcode/152-maximum-product-subarray.kt)
+- [226. Invert Binary Tree](src/leetcode/226-invert-binary-tree/solution.kt)
 - [450. Delete Node in a BST](src/leetcode/450-delete-node-in-a-bst.kt)

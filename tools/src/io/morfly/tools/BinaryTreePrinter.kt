@@ -31,14 +31,18 @@ fun <T> BinaryTree<T>.print() {
 }
 
 fun <T> Any.convertToPrintableBinaryTree(): BinaryTree<T> {
-    val tree = BinaryTree(value = getProperty<T>("value").get(this))
+    val valueProperty = getProperty<T>("value") { getProperty("val") }
+    val tree = BinaryTree(value = valueProperty.get(this))
     tree.left = getProperty<Any?>("left").get(this)?.convertToPrintableBinaryTree()
     tree.right = getProperty<Any?>("right").get(this)?.convertToPrintableBinaryTree()
     return tree
 }
 
 @Suppress("UNCHECKED_CAST")
-private fun <T> Any.getProperty(name: String): KProperty1<Any, T> {
+private fun <T> Any.getProperty(
+    name: String,
+    fallback: (() -> KProperty1<Any, T>)? = null
+): KProperty1<Any, T> {
     val property = this::class.members.firstOrNull { it.name == name } as? KProperty1<Any, T>
-    return property ?: error("Binary tree node must have a '$name' property.")
+    return property ?: fallback?.invoke() ?: error("Binary tree node must have a '$name' property.")
 }
