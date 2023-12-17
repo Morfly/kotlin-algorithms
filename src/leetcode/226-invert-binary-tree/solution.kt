@@ -7,6 +7,7 @@ class TreeNode(var `val`: Int) {
     var right: TreeNode? = null
 }
 
+// https://leetcode.com/problems/invert-binary-tree/description/
 fun invertTree(root: TreeNode?): TreeNode? =
     root?.apply {
         left = invertTree(left)
