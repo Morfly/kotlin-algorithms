@@ -40,8 +40,10 @@ fun main() {
     )
 
     val result = minSpanningTree(edges)
+    val totalWeight = result.sumOf { it.weight }
 
     println(result)
+    println(totalWeight)
     require(
         result == listOf(
             Edge(src = "A", dest = "D", weight = 1),
@@ -51,4 +53,5 @@ fun main() {
             Edge(src = "B", dest = "F", weight = 7)
         )
     )
+    require(totalWeight == 17)
 }

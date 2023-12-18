@@ -20,13 +20,14 @@
 - [Binary search tree](src/foundation/binary-search-tree)
 - [Disjoint set union](src/foundation/disjoint-set-union/disjoint-set-union.kt)
 - [Minimum spanning tree](src/foundation/minimum-spanning-tree)
-    - [Kruskal's algorithm](src/foundation/minimum-spanning-tree/kruskal)
+    - [Kruskal's algorithm](src/foundation/minimum-spanning-tree/kruskal/kruskal-disjoint-set-union.kt)
 - [Sorting](src/foundation/sorting)
     - [Bubble sort](src/foundation/sorting/bubble-sort/bubble-sort.kt)
     - Merge sort
     - Quick sort
     - Shell sort
     - Insertion sort
+- Shuffling
 
 ### Exercises
 
