@@ -10,4 +10,6 @@ sourceSets {
 
 dependencies {
     implementation(projects.tools)
+    
+    implementation(libs.kotlin.coroutines)
 }
