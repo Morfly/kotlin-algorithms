@@ -2,7 +2,7 @@ package foundation.`parallel-sorting`.`parallel-merge-sort`.`fork-join`
 
 import foundation.sorting.`insertion-sort`.range.insertionSort
 import foundation.sorting.`merge-sort`.mergeSort
-import io.morfly.tools.isSorted
+import io.morfly.algorithms.tools.isSorted
 import java.util.concurrent.ForkJoinPool
 import java.util.concurrent.RecursiveAction
 import kotlin.random.Random

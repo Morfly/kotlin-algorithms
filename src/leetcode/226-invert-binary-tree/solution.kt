@@ -1,6 +1,6 @@
 package leetcode.`226-invert-binary-tree`
 
-import io.morfly.tools.printBinaryTree
+import io.morfly.algorithms.tools.printBinaryTree
 
 class TreeNode(var `val`: Int) {
     var left: TreeNode? = null

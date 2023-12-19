@@ -1,4 +1,4 @@
-package io.morfly.tools
+package io.morfly.algorithms.tools
 
 fun IntArray.isSorted(): Boolean {
     for (i in 0 until size - 1) {

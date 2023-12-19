@@ -1,4 +1,4 @@
-package io.morfly.tools
+package io.morfly.algorithms.tools
 
 import kotlin.reflect.KProperty1
 

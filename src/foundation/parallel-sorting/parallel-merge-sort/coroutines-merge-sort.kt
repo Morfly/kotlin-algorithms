@@ -2,7 +2,7 @@ package foundation.`parallel-sorting`.`parallel-merge-sort`.coroutines
 
 import foundation.sorting.`insertion-sort`.range.insertionSort
 import foundation.sorting.`merge-sort`.mergeSort
-import io.morfly.tools.isSorted
+import io.morfly.algorithms.tools.isSorted
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch

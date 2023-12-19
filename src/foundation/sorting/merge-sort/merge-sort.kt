@@ -1,6 +1,6 @@
 package foundation.sorting.`merge-sort`
 
-import io.morfly.tools.isSorted
+import io.morfly.algorithms.tools.isSorted
 
 fun IntArray.mergeSort() {
     mergeSort(this, copyOf(), start = 0, end = size)

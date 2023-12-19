@@ -1,6 +1,6 @@
 package foundation.`binary-search-tree`.recursive
 
-import io.morfly.tools.printBinaryTree
+import io.morfly.algorithms.tools.printBinaryTree
 
 class BinarySearchTree(var value: Int) {
     var left: BinarySearchTree? = null
