@@ -30,7 +30,7 @@
     - [Insertion sort](src/foundation/sorting/insertion-sort/insertion-sort.kt)
     - [Merge sort](src/foundation/sorting/merge-sort/merge-sort.kt)
   - [Quick sort](src/foundation/sorting/quick-sort/quick-sort.kt)
-    - Shell sort
+    - [Shell sort](src/foundation/sorting/shell-sort/shell-sort.kt)
 
 ### Exercises
 
