@@ -1,10 +1,10 @@
 package foundation.sorting.`shell-sort`
 
-import foundation.sorting.`shell-sort`.`gap-sequence`.computeShellGapSequence
+import foundation.sorting.`shell-sort`.`gap-sequence`.ciuraExtendedGapSequence
 import io.morfly.algorithms.tools.isSorted
 
 fun IntArray.shellSort() {
-    shellSort(computeShellGapSequence(size))
+    shellSort(ciuraExtendedGapSequence)
 }
 
 fun IntArray.shellSort(gaps: IntArray) {
