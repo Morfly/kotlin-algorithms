@@ -1,5 +1,7 @@
 package foundation.`minimum-spanning-tree`.kruskal
 
+import foundation.`disjoint-set-union`.`hash-map`.DisjointSet
+
 data class Edge(
     val src: String,
     val dest: String,

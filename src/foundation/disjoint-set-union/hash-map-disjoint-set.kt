@@ -1,4 +1,4 @@
-package foundation.`minimum-spanning-tree`.kruskal
+package foundation.`disjoint-set-union`.`hash-map`
 
 class DisjointSet<T> {
     private val parent = mutableMapOf<T, T>()
@@ -30,4 +30,20 @@ class DisjointSet<T> {
             }
         }
     }
+
+    fun connected(p: T, q: T): Boolean =
+        find(p) == find(q)
+}
+
+fun main() {
+    val disjointSet = DisjointSet<String>()
+
+    disjointSet.union("A", "B")
+    disjointSet.union("B", "C")
+    disjointSet.union("D", "E")
+    require(disjointSet.connected("A", "C"))
+    require(!disjointSet.connected("A", "E"))
+
+    disjointSet.union("C", "D")
+    require(disjointSet.connected("A", "E"))
 }

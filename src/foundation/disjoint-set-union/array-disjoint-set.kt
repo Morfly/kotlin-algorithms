@@ -1,4 +1,4 @@
-package foundation.`disjoint-set-union`
+package foundation.`disjoint-set-union`.array
 
 // https://youtu.be/ayW5B2W9hfo?si=WaGAHuPu0ggW7vv3
 // https://cp-algorithms.com/data_structures/disjoint_set_union.html
