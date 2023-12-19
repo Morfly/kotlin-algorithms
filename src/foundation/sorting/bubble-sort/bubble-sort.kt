@@ -1,5 +1,7 @@
 package foundation.sorting.`bubble-sort`
 
+import io.morfly.algorithms.tools.isSorted
+
 fun IntArray.bubbleSort() {
     for (i in 0..<lastIndex) {
         for (j in 0..<lastIndex - i) {
@@ -16,5 +18,5 @@ fun main() {
     array.bubbleSort()
 
     println(array.joinToString())
-    require(array.toList() == listOf(11, 12, 22, 25, 34, 64, 90))
+    require(array.isSorted())
 }

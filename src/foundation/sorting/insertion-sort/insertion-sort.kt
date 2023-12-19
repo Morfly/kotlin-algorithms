@@ -1,21 +1,12 @@
 package foundation.sorting.`insertion-sort`
 
-fun IntArray.insertionSort() {
-    // Setting sentinel
-    var swaps = 0
-    for (i in lastIndex downTo 1) {
-        if (this[i] < this[i - 1]) {
-            this[i] = this[i - 1].also { this[i - 1] = this[i] }
-            swaps++
-        }
-    }
-    if (swaps == 0) return
+import io.morfly.algorithms.tools.isSorted
 
-    // Actual insertion sort
-    for (i in 2..lastIndex) {
+fun IntArray.insertionSort() {
+    for (i in 1..lastIndex) {
         var j = i
         val arri = this[i]
-        while (arri < this[j - 1]) {
+        while (j > 0 && arri < this[j - 1]) {
             this[j] = this[j - 1]
             j--
         }
@@ -29,4 +20,5 @@ fun main() {
     array.insertionSort()
 
     println(array.joinToString())
+    require(array.isSorted())
 }
