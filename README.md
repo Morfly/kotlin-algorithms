@@ -4,9 +4,11 @@
 
 ### Foundation
 
-- [Search](src/foundation/search)
-    - [Linear search](src/foundation/search/linear)
-    - [Binary search](src/foundation/search/binary)
+- [Binary search tree](src/foundation/binary-search-tree)
+- [Binary tree](src/foundation/binary-tree)
+    - [Breadth-first search](src/foundation/binary-tree/breadth-first-search)
+    - [Depth-first search](src/foundation/binary-tree/depth-first-search)
+- [Disjoint set union](src/foundation/disjoint-set-union/disjoint-set-union.kt)
 - [Graph](src/foundation/graph)
     - [Breadth-first search](src/foundation/graph/breadth-first-search)
     - [Depth-first search](src/foundation/graph/depth-first-search)
@@ -14,20 +16,21 @@
     - [Topological sort](src/foundation/graph/topological-sort)
         - [Depth-first search](src/foundation/graph/topological-sort/DfsTopologicalSort.kt)
         - [Kahn's algorithm](src/foundation/graph/topological-sort/KahnTopologicalSort.kt)
-- [Binary tree](src/foundation/binary-tree)
-    - [Breadth-first search](src/foundation/binary-tree/breadth-first-search)
-    - [Depth-first search](src/foundation/binary-tree/depth-first-search)
-- [Binary search tree](src/foundation/binary-search-tree)
-- [Disjoint set union](src/foundation/disjoint-set-union/disjoint-set-union.kt)
+- [Heap](src/foundation/heap/min-heap.kt)
 - [Minimum spanning tree](src/foundation/minimum-spanning-tree)
     - [Kruskal's algorithm](src/foundation/minimum-spanning-tree/kruskal/kruskal-disjoint-set-union.kt)
+- [Parallel sorting](src/foundation/parallel-sorting)
+    - [Merge sort](src/foundation/parallel-sorting/parallel-merge-sort)
+    - [Quick sort](src/foundation/parallel-sorting/parallel-quick-sort)
+- [Search](src/foundation/search)
+    - [Linear search](src/foundation/search/linear)
+    - [Binary search](src/foundation/search/binary)
 - [Sorting](src/foundation/sorting)
     - [Bubble sort](src/foundation/sorting/bubble-sort/bubble-sort.kt)
-    - Merge sort
-    - Quick sort
+    - [Insertion sort](src/foundation/sorting/insertion-sort/insertion-sort.kt)
+    - [Merge sort](src/foundation/sorting/merge-sort/merge-sort.kt)
+  - [Quick sort](src/foundation/sorting/quick-sort/quick-sort.kt)
     - Shell sort
-    - Insertion sort
-- Shuffling
 
 ### Exercises
 
