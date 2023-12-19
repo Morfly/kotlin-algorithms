@@ -1,6 +1,6 @@
 package foundation.sorting.`merge-sort`
 
-import kotlin.random.Random
+import io.morfly.tools.isSorted
 
 fun IntArray.mergeSort() {
     mergeSort(this, copyOf(), start = 0, end = size)
@@ -28,14 +28,10 @@ fun merge(arr: IntArray, aux: IntArray, start: Int, mid: Int, end: Int) {
 }
 
 fun main() {
-    val time = System.currentTimeMillis()
-
-//    val array = intArrayOf(10, 2, 8, 3, 1, 5, 9)
-    val array = IntArray(2_000_000_0) { Random.nextInt(1, Int.MAX_VALUE) }
+    val array = intArrayOf(10, 2, 8, 3, 1, 5, 9)
 
     array.mergeSort()
-    println("done in ${System.currentTimeMillis() - time}")
 
-
-//    println(array.joinToString())
+    println(array.joinToString())
+    require(array.isSorted())
 }
