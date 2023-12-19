@@ -28,9 +28,9 @@
 - [Sorting](src/foundation/sorting)
     - [Bubble sort](src/foundation/sorting/bubble-sort/bubble-sort.kt)
     - [Insertion sort](src/foundation/sorting/insertion-sort/insertion-sort.kt)
+    - [Shell sort](src/foundation/sorting/shell-sort/shell-sort.kt)
     - [Merge sort](src/foundation/sorting/merge-sort/merge-sort.kt)
     - [Quick sort](src/foundation/sorting/quick-sort/quick-sort.kt)
-    - [Shell sort](src/foundation/sorting/shell-sort/shell-sort.kt)
 
 ### Exercises
 
