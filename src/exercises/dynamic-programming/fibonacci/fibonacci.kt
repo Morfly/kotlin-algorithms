@@ -1,4 +1,4 @@
-package exercises.`dynamic-programming`
+package exercises.`dynamic-programming`.fibonacci
 
 // https://youtu.be/P8Xa2BitN3I?si=B8TuILrrz_2IJfCl
 fun fibonacci(n: Int): Int {

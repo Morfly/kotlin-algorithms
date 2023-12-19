@@ -35,7 +35,8 @@
 ### Exercises
 
 - [Dynamic programming](src/exercises/dynamic-programming)
-    - [Fibonacci sequence](src/exercises/dynamic-programming/fibonacci.kt)
+    - [Fibonacci sequence](src/exercises/dynamic-programming/fibonacci/fibonacci.kt)
+    - [Count paths](src/exercises/dynamic-programming/count-the-paths/recursive-solution.kt)
 
 ### LeetCode
 
