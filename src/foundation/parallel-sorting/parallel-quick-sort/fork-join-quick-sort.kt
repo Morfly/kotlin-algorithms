@@ -1,7 +1,8 @@
-package foundation.`parallel-sorting`.`parallel-merge-sort`.`fork-join`
+package foundation.`parallel-sorting`.`parallel-quick-sort`
 
 import foundation.sorting.`insertion-sort`.range.insertionSort
-import foundation.sorting.`merge-sort`.mergeSort
+import foundation.sorting.`quick-sort`.partition.hoarePartition
+import foundation.sorting.`quick-sort`.quickSort
 import io.morfly.algorithms.tools.isSorted
 import java.util.concurrent.ForkJoinPool
 import java.util.concurrent.RecursiveAction
@@ -10,41 +11,29 @@ import kotlin.system.measureTimeMillis
 
 private const val THRESHOLD = 100
 
-fun IntArray.parallelMergeSort() {
-    ForkJoinPool().invoke(MergeSortTask(this, copyOf(), start = 0, end = size))
+fun IntArray.parallelQuickSort() {
+    shuffle()
+    ForkJoinPool().invoke(QuickSortTask(this, 0, this.size))
 }
 
-class MergeSortTask(
-    private val arr: IntArray,
-    private val aux: IntArray,
+class QuickSortTask(
+    private val array: IntArray,
     private val start: Int,
     private val end: Int
 ) : RecursiveAction() {
-    
+
     override fun compute() {
         if (end - start < THRESHOLD) {
-            arr.insertionSort(start, end)
+            array.insertionSort(start, end)
             return
         }
-        val mid = (start + end) / 2
+        val pivot = array.hoarePartition(start, end)
 
-        val left = MergeSortTask(aux, arr, start, mid)
-        val right = MergeSortTask(aux, arr, mid, end)
+        val left = QuickSortTask(array, start, pivot)
+        val right = QuickSortTask(array, pivot + 1, end)
         left.fork()
         right.compute()
         left.join()
-
-        merge(aux, arr, start, mid, end)
-    }
-}
-
-fun merge(arr: IntArray, aux: IntArray, start: Int, mid: Int, end: Int) {
-    var i = start
-    var j = mid
-    for (k in start until end) {
-        if (i < mid && (j >= end || arr[i] <= arr[j]))
-            aux[k] = arr[i++]
-        else aux[k] = arr[j++]
     }
 }
 
@@ -52,7 +41,7 @@ fun main() {
     // Parallel sort
     val array1 = IntArray(200_000_000) { Random.nextInt(1, Int.MAX_VALUE) }
     val time1 = measureTimeMillis {
-        array1.parallelMergeSort()
+        array1.parallelQuickSort()
     }
     println("Parallel sort: $time1")
     require(array1.isSorted())
@@ -60,7 +49,7 @@ fun main() {
     // Sequential sort
     val array2 = IntArray(200_000_000) { Random.nextInt(1, Int.MAX_VALUE) }
     val time2 = measureTimeMillis {
-        array2.mergeSort()
+        array2.quickSort()
     }
     println("Sequential sort: $time2")
     require(array2.isSorted())
