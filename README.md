@@ -49,3 +49,4 @@
 - [226. Invert Binary Tree](src/leetcode/226-invert-binary-tree/solution.kt)
 - [320. Coin Change](src/leetcode/320-coin-change/solution.kt)
 - [450. Delete Node in a BST](src/leetcode/450-delete-node-in-a-bst/solution.kt)
+- [1861. Rotating the Box](src/leetcode/1861-rotating-the-box/solution.kt)
