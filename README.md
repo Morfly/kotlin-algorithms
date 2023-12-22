@@ -42,6 +42,7 @@
 
 - [1. Two Sum](src/leetcode/1-two-sum/solution.kt)
 - [53. Maximum Subarray](src/leetcode/53-maximum-subarray/solution.kt)
+- [121. Best Time to Buy and Sell Stock](src/leetcode/121-best-time-to-buy-and-sell-stock/solution.kt)
 - [152. Maximum Product Subarray](src/leetcode/152-maximum-product-subarray/solution.kt)
 - [199. Binary Tree Right Side View](src/leetcode/199-binary-tree-right-side-view/solution.kt)
 - [200. Number of Islands](src/leetcode/200-number-of-islands/solution.kt)
