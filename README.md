@@ -47,6 +47,7 @@
 - [46. Permutations](src/leetcode/46-permutations/solution.kt)
 - [47. Permutations II](src/leetcode/47-permutations-II/solution.kt)
 - [48. Rotate Image](src/leetcode/48-rotate-image/solution.kt)
+- [49. Group Anagrams](src/leetcode/49-group-anagrams/solution.kt)
 - [53. Maximum Subarray](src/leetcode/53-maximum-subarray/solution.kt)
 - [70. Climbing Stairs](src/leetcode/70-climbing-stairs/solution.kt)
 - [78. Subsets](src/leetcode/78-subsets/solution.kt)
