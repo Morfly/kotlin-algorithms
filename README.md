@@ -49,6 +49,7 @@
 - [48. Rotate Image](src/leetcode/48-rotate-image/solution.kt)
 - [49. Group Anagrams](src/leetcode/49-group-anagrams/solution.kt)
 - [53. Maximum Subarray](src/leetcode/53-maximum-subarray/solution.kt)
+- [62. Unique Paths](src/leetcode/62-unique-paths/solution.kt)
 - [70. Climbing Stairs](src/leetcode/70-climbing-stairs/solution.kt)
 - [78. Subsets](src/leetcode/78-subsets/solution.kt)
 - [90. Subsets II](src/leetcode/90-subsets-II/solution.kt)
