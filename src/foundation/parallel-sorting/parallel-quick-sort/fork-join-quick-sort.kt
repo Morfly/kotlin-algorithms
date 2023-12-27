@@ -17,20 +17,20 @@ fun IntArray.parallelQuickSort() {
 }
 
 class QuickSortTask(
-    private val array: IntArray,
+    private val arr: IntArray,
     private val start: Int,
     private val end: Int
 ) : RecursiveAction() {
 
     override fun compute() {
         if (end - start < THRESHOLD) {
-            array.insertionSort(start, end)
+            arr.insertionSort(start, end)
             return
         }
-        val pivot = array.hoarePartition(start, end)
+        val pivot = arr.hoarePartition(start, end)
 
-        val left = QuickSortTask(array, start, pivot)
-        val right = QuickSortTask(array, pivot + 1, end)
+        val left = QuickSortTask(arr, start, pivot)
+        val right = QuickSortTask(arr, pivot + 1, end)
         left.fork()
         right.compute()
         left.join()
