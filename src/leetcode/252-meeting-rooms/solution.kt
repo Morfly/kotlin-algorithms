@@ -1,7 +1,7 @@
 package leetcode.`252-meeting-rooms`
 
 fun canAttendMeetings(intervals: Array<IntArray>): Boolean {
-    intervals.sortBy { it[0] }
+    intervals.sortBy { it.first() }
 
     var prevEnd: Int? = null
     for ((start, end) in intervals) {
