@@ -4,6 +4,8 @@ import java.util.*
 
 data class Busy(val end: Long, val room: Int)
 
+// https://leetcode.com/problems/meeting-rooms-iii/description/
+// https://youtu.be/aZ_vuZxlB4I?si=1KBv4_z0aRHBzNu0
 fun mostBooked(n: Int, meetings: Array<IntArray>): Int {
     val busy = PriorityQueue<Busy>(n, compareBy({ it.end }, { it.room }))
     val available = PriorityQueue<Int>()
