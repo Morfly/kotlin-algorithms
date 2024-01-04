@@ -2,7 +2,7 @@ package leetcode.`53`
 
 import kotlin.math.max
 
-// https://leetcode.com/problems/maximum-subarray/description/
+// https://leetcode.com/problems/maximum-subarray
 // https://youtu.be/5WZl3MMT0Eg?si=is4N27GpnLbUUVo6
 fun maxSubarray(nums: IntArray): Int {
     var maxSub = nums[0]

@@ -1,6 +1,7 @@
 package leetcode.`198-house-robber`
 
 // https://leetcode.com/problems/house-robber
+// https://youtu.be/73r3KWiEvyk?si=UsnAcvYExELPGPxX
 fun rob(nums: IntArray): Int {
     var rob1 = 0
     var rob2 = 0
