@@ -11,7 +11,6 @@ fun findBuildings(heights: IntArray): IntArray {
             result += i
         }
     }
-
     return result.asReversed().toIntArray()
 }
 
