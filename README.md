@@ -56,6 +56,7 @@
 - [121. Best Time to Buy and Sell Stock](src/leetcode/121-best-time-to-buy-and-sell-stock/solution.kt)
 - [131. Palindrome Partitioning](src/leetcode/131-palindrome-partitioning/solution.kt)
 - [152. Maximum Product Subarray](src/leetcode/152-maximum-product-subarray/solution.kt)
+- [153. Find Minimum in Rotated Sorted Array](src/leetcode/153-find-minimum-in-rotated-sorted-array/solution.kt)
 - [199. Binary Tree Right Side View](src/leetcode/199-binary-tree-right-side-view/solution.kt)
 - [200. Number of Islands](src/leetcode/200-number-of-islands/solution.kt)
 - [277. Find the Celebrity](src/leetcode/277-find-the-celebrity/solution.kt)
