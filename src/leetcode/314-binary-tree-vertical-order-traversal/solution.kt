@@ -59,6 +59,7 @@ fun main() {
     val result = verticalOrder(tree)
 
     println(result)
+    require(result == listOf(listOf(4), listOf(9, 5), listOf(3, 0, 1), listOf(8, 2), listOf(7)))
 }
 
 inline fun node(value: Int, nodes: TreeNode.() -> Unit = {}): TreeNode =

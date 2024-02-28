@@ -70,5 +70,6 @@
 - [347. Top K Frequent Elements](src/leetcode/347-top-k-frequent-elements/solution.kt)
 - [450. Delete Node in a BST](src/leetcode/450-delete-node-in-a-bst/solution.kt)
 - [919. Meeting Rooms II](src/leetcode/919-meeting-rooms-II/solution.kt)
+- [1762. Buildings With an Ocean View](src/leetcode/1762-buildings-with-an-ocean-view/solution.kt)
 - [1861. Rotating the Box](src/leetcode/1861-rotating-the-box/solution.kt)
 - [2401. Meeting Rooms III](src/leetcode/2402-meeting-rooms-III/solution.kt)
