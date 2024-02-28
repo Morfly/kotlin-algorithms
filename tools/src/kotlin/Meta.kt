@@ -13,5 +13,7 @@ enum class Company {
 }
 
 enum class Topic {
-    BinarySearch
+    BinarySearch,
+    BinaryTree,
+    BreadthFirstSearch,
 }

@@ -1,3 +1,5 @@
+@file:Meta(companies = [Company.Meta], topics = [Topic.BinaryTree, Topic.BreadthFirstSearch])
+
 package leetcode.`314-binary-tree-vertical-order-traversal`
 
 class TreeNode(var `val`: Int) {
