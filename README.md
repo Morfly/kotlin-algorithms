@@ -62,6 +62,7 @@
 - [283. Move Zeros](src/leetcode/283-move-zeros/solution.kt)
 - [226. Invert Binary Tree](src/leetcode/226-invert-binary-tree/solution.kt)
 - [252. Meeting Rooms](src/leetcode/252-meeting-rooms/solution.kt)
+- [314. Binary Tree Vertical Order Traversal](src/leetcode/314-binary-tree-vertical-order-traversal/solution.kt)
 - [320. Coin Change](src/leetcode/320-coin-change/solution.kt)
 - [332. Reconstruct Itinerary](src/leetcode/332-reconstruct-itinerary/solution.kt)
 - [350. Intersection of Two Arrays II](src/leetcode/350-intercection-of-two-arrays-II/solution.kt)
