@@ -63,6 +63,7 @@
 - [283. Move Zeros](src/leetcode/283-move-zeros/solution.kt)
 - [226. Invert Binary Tree](src/leetcode/226-invert-binary-tree/solution.kt)
 - [252. Meeting Rooms](src/leetcode/252-meeting-rooms/solution.kt)
+- [339. Nested List Weight Sum](src/leetcode/339-nested-list-weight-sum/solution.kt)
 - [408. Valid Word Abbreviation](src/leetcode/408-valid-word-abbreviation/solution.kt)
 - [314. Binary Tree Vertical Order Traversal](src/leetcode/314-binary-tree-vertical-order-traversal/solution.kt)
 - [320. Coin Change](src/leetcode/320-coin-change/solution.kt)
