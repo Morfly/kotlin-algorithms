@@ -16,4 +16,5 @@ enum class Topic {
     BinarySearch,
     BinaryTree,
     BreadthFirstSearch,
+    Stack
 }
