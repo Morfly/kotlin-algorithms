@@ -73,6 +73,7 @@
 - [350. Intersection of Two Arrays II](src/leetcode/350-intercection-of-two-arrays-II/solution.kt)
 - [347. Top K Frequent Elements](src/leetcode/347-top-k-frequent-elements/solution.kt)
 - [450. Delete Node in a BST](src/leetcode/450-delete-node-in-a-bst/solution.kt)
+- [528. Random Pick with Weight](src/leetcode/528-random-pick-with-weight/solution.kt)
 - [919. Meeting Rooms II](src/leetcode/919-meeting-rooms-II/solution.kt)
 - [1249. Minimum Remove to Make Valid Parentheses](src/leetcode/1249-minimum-remove-to-make-valid-parentheses/solution.kt)
 - [1570. Dot Product of Two Sparse Vectors](src/leetcode/1570-dot-product-of-two-sparce-arrays/solution.kt)
