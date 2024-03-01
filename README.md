@@ -52,6 +52,7 @@
 - [62. Unique Paths](src/leetcode/62-unique-paths/solution.kt)
 - [70. Climbing Stairs](src/leetcode/70-climbing-stairs/solution.kt)
 - [78. Subsets](src/leetcode/78-subsets/solution.kt)
+- [88. Merge Sorted Array](src/leetcode/88-merge-sorted-array/solution.kt)
 - [90. Subsets II](src/leetcode/90-subsets-II/solution.kt)
 - [121. Best Time to Buy and Sell Stock](src/leetcode/121-best-time-to-buy-and-sell-stock/solution.kt)
 - [131. Palindrome Partitioning](src/leetcode/131-palindrome-partitioning/solution.kt)
