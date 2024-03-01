@@ -58,6 +58,7 @@
 - [152. Maximum Product Subarray](src/leetcode/152-maximum-product-subarray/solution.kt)
 - [153. Find Minimum in Rotated Sorted Array](src/leetcode/153-find-minimum-in-rotated-sorted-array/solution.kt)
 - [160. Intersection of Two Linked Lists](src/leetcode/160-intersection-of-two-linked-lists/solution.kt)
+- [162. Find Peak Element](src/leetcode/162-find-peak-element/solution.kt)
 - [199. Binary Tree Right Side View](src/leetcode/199-binary-tree-right-side-view/solution.kt)
 - [200. Number of Islands](src/leetcode/200-number-of-islands/solution.kt)
 - [215. Kth Largest Element in an Array](src/leetcode/215-kth-largest-element-in-an-array/solution-2.kt)
