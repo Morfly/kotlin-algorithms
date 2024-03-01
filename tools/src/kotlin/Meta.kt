@@ -9,7 +9,7 @@ annotation class Meta(
 enum class Company {
     Meta,
     Google,
-    Netflix
+    Netflix,
 }
 
 enum class Topic {
@@ -17,5 +17,6 @@ enum class Topic {
     BinaryTree,
     BreadthFirstSearch,
     DepthFirstSearch,
-    Stack
+    Stack,
+    LinkedList,
 }
