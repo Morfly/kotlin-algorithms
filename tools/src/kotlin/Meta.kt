@@ -15,6 +15,7 @@ enum class Company {
 enum class Topic {
     BinarySearch,
     BinaryTree,
+    BinarySearchTree,
     Heap,
     BreadthFirstSearch,
     DepthFirstSearch,
