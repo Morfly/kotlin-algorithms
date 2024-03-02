@@ -1,5 +1,6 @@
 package foundation
 
+// TODO move to specific algorithms where it's used
 fun IntArray.swap(i: Int, j: Int) {
     this[i] = this[j].also { this[j] = this[i] }
 }

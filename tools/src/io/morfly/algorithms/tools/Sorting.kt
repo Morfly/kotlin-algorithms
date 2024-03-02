@@ -8,3 +8,12 @@ fun IntArray.isSorted(): Boolean {
     }
     return true
 }
+
+fun FloatArray.isSorted(): Boolean {
+    for (i in 0 until size - 1) {
+        if (this[i] > this[i + 1]) {
+            return false
+        }
+    }
+    return true
+}

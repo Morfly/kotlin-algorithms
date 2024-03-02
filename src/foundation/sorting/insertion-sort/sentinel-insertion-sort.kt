@@ -15,7 +15,7 @@ fun IntArray.insertionSort(start: Int, end: Int) {
     if (swaps == 0) return
 
     // Actual insertion sort
-    for (i in start + 1 until end) {
+    for (i in start + 2 until end) {
         var j = i
         val arri = this[i]
         while (arri < this[j - 1]) {
