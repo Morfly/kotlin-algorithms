@@ -22,5 +22,7 @@ enum class Topic {
     LinkedList,
     QuickSelect,
     Sorting,
+    MergeSort,
     TwoPointers,
+    Intervals,
 }

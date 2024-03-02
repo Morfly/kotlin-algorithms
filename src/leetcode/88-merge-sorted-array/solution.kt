@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.TwoPointers, Topic.Sorting])
+@file:Meta(companies = [Company.Meta], topics = [Topic.TwoPointers, Topic.Sorting, Topic.Intervals])
 
 package leetcode.`88-merge-sorted-array`
 
