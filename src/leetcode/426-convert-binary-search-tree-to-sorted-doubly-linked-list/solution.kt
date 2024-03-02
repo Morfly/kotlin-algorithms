@@ -2,6 +2,11 @@
 
 package leetcode.`426-convert-binary-search-tree-to-sorted-doubly-linked-list`
 
+class Node(var `val`: Int) {
+    var left: Node? = null
+    var right: Node? = null
+}
+
 @TimeComplexity("O(n)")
 @SpaceComplexity("O(1)")
 fun treeToDoublyList(root: Node?): Node? {
@@ -45,4 +50,7 @@ fun main() {
     println(list)
     require(list == reversed.asReversed())
 }
+
+inline fun node(value: Int, nodes: Node.() -> Unit = {}): Node =
+    Node(value).apply(nodes)
 

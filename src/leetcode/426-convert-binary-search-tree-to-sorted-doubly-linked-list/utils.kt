@@ -1,13 +1,5 @@
 package leetcode.`426-convert-binary-search-tree-to-sorted-doubly-linked-list`
 
-class Node(var `val`: Int) {
-    var left: Node? = null
-    var right: Node? = null
-}
-
-inline fun node(value: Int, nodes: Node.() -> Unit = {}): Node =
-    Node(value).apply(nodes)
-
 fun Node?.rightList(): List<Int> {
     if (this == null) return emptyList()
 
