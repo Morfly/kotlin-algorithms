@@ -25,6 +25,7 @@ enum class Topic {
     QuickSelect,
     Sorting,
     MergeSort,
+    BucketSort,
     TwoPointers,
     Intervals,
 }
