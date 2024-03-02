@@ -3,8 +3,9 @@ package foundation.sorting.`bucket-sort`
 import io.morfly.algorithms.tools.isSorted
 
 @TimeComplexities(
-    Worst("O(n^2)", Comment("all elements are in a single bucket.")),
-    Average("O(n + k)", Comment("n is an array size, k is a bucket size.")),
+    worst = Worst("O(n^2)", Comment("all elements are in 1 bucket, depends on a sorting algorithm used for buckets.")),
+    average = Average("O(n + k)", Comment("n is an array size, k is a number of buckets.")),
+    best = Best("O(n)", Comment("each bucket has only 1 element."))
 )
 @SpaceComplexity("O(n + k)")
 fun FloatArray.bucketSort() {
