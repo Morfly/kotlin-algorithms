@@ -30,4 +30,5 @@ enum class Topic {
     BucketSort,
     TwoPointers,
     Intervals,
+    BitManipulation,
 }

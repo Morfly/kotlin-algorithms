@@ -57,6 +57,7 @@
 - [90. Subsets II](src/leetcode/90-subsets-II/solution.kt)
 - [121. Best Time to Buy and Sell Stock](src/leetcode/121-best-time-to-buy-and-sell-stock/solution.kt)
 - [131. Palindrome Partitioning](src/leetcode/131-palindrome-partitioning/solution.kt)
+- [136. Single Number](src/leetcode/136-single-number/solution.kt)
 - [152. Maximum Product Subarray](src/leetcode/152-maximum-product-subarray/solution.kt)
 - [153. Find Minimum in Rotated Sorted Array](src/leetcode/153-find-minimum-in-rotated-sorted-array/solution.kt)
 - [160. Intersection of Two Linked Lists](src/leetcode/160-intersection-of-two-linked-lists/solution.kt)
