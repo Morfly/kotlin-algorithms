@@ -2,6 +2,8 @@
 
 package leetcode.`191-number-of-1-bits`
 
+@TimeComplexity("O(n)")
+@SpaceComplexity("O(1)")
 fun hammingWeight(n: Int): Int {
     var bits = 0
     var a = n
