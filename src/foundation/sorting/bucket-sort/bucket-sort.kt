@@ -7,7 +7,10 @@ package foundation.sorting.`bucket-sort`
 
 import io.morfly.algorithms.tools.*
 
-@TimeComplexities(Worst("O(n^2)"), Average("O(n + k)"), "n - array size, k - number of buckets.")
+@TimeComplexities(
+    Worst("O(n^2)"), Average("O(n + k)"),
+    "n - array size, k - number of buckets."
+)
 @SpaceComplexity("O(n + k)")
 fun FloatArray.bucketSort() {
     val buckets = Array(size) { mutableListOf<Float>() }
