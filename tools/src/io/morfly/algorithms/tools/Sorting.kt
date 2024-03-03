@@ -5,7 +5,7 @@ val FloatArray.array: FloatArray get() = this
 
 fun IntArray.isSorted(): Boolean {
     for (i in 0 until size - 1) {
-        if (this[i] > this[i + 1]) {
+        if (array[i] > array[i + 1]) {
             return false
         }
     }
@@ -14,7 +14,7 @@ fun IntArray.isSorted(): Boolean {
 
 fun FloatArray.isSorted(): Boolean {
     for (i in 0 until size - 1) {
-        if (this[i] > this[i + 1]) {
+        if (array[i] > array[i + 1]) {
             return false
         }
     }

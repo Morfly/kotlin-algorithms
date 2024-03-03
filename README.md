@@ -27,10 +27,14 @@
     - [Binary search](src/foundation/search/binary)
 - [Sorting](src/foundation/sorting)
     - [Bubble sort](src/foundation/sorting/bubble-sort/bubble-sort.kt)
+    - [Selection sort](src/foundation/sorting/selection-sort/selection-sort.kt)
     - [Insertion sort](src/foundation/sorting/insertion-sort/insertion-sort.kt)
     - [Shell sort](src/foundation/sorting/shell-sort/shell-sort.kt)
     - [Merge sort](src/foundation/sorting/merge-sort/merge-sort.kt)
     - [Quick sort](src/foundation/sorting/quick-sort/quick-sort.kt)
+    - [Bucket sort](src/foundation/sorting/bucket-sort/bucket-sort.kt)
+    - [Counting sort](src/foundation/sorting/counting-sort/counting-sort.kt)
+    - [Radix sort](src/foundation/sorting/radix-sort/radix-sort.kt)
 
 ### Exercises
 
@@ -81,6 +85,7 @@
 - [426. Convert Binary Search Tree to Sorted Doubly Linked List](src/leetcode/426-convert-binary-search-tree-to-sorted-doubly-linked-list/solution.kt)
 - [450. Delete Node in a BST](src/leetcode/450-delete-node-in-a-bst/solution.kt)
 - [528. Random Pick with Weight](src/leetcode/528-random-pick-with-weight/solution.kt)
+- [791. Custom Sort String](src/leetcode/791-custom-sort-string/solution-2.kt)
 - [919. Meeting Rooms II](src/leetcode/919-meeting-rooms-II/solution.kt)
 - [938. Range Sum of BST](src/leetcode/938-range-sum-of-bst/solution.kt)
 - [986. Interval List Intersections](src/leetcode/986-interval-list-intersections/solution.kt)
