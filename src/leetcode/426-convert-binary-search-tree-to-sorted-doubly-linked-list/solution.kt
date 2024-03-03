@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.BinarySearchTree, Topic.DepthFirstSearch, Topic.LinkedList])
+@file:Problem(companies = [Company.Meta], topics = [Topic.BinarySearchTree, Topic.DepthFirstSearch, Topic.LinkedList])
 
 package leetcode.`426-convert-binary-search-tree-to-sorted-doubly-linked-list`
 

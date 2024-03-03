@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.DepthFirstSearch])
+@file:Problem(companies = [Company.Meta], topics = [Topic.DepthFirstSearch])
 
 package leetcode.`339-nested-list-weight-sum`
 

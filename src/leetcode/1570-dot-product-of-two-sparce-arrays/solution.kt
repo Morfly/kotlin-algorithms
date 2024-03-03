@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta])
+@file:Problem(companies = [Company.Meta])
 
 package leetcode.`1570-dot-product-of-two-sparce-arrays`
 

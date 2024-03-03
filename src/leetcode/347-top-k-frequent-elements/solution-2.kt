@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.Sorting, Topic.BucketSort])
+@file:Problem(companies = [Company.Meta], topics = [Topic.Sorting, Topic.BucketSort])
 
 package leetcode.`347-top-k-frequent-elements`.`solution-2`
 

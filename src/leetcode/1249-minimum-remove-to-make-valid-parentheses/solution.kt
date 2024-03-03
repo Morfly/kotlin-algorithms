@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.Stack])
+@file:Problem(companies = [Company.Meta], topics = [Topic.Stack])
 
 package leetcode.`1249-minimum-remove-to-make-valid-parentheses`
 

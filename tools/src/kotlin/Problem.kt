@@ -2,9 +2,8 @@ package kotlin
 
 import kotlin.annotation.AnnotationTarget.FILE
 
-// TODO rename to Problem
 @Target(FILE)
-annotation class Meta(
+annotation class Problem(
     val companies: Array<Company> = [],
     val topics: Array<Topic> = []
 )

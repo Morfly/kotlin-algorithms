@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.BinarySearch])
+@file:Problem(companies = [Company.Meta], topics = [Topic.BinarySearch])
 
 package leetcode.`162-find-peak-element`
 

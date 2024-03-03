@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.TwoPointers, Topic.Intervals])
+@file:Problem(companies = [Company.Meta], topics = [Topic.TwoPointers, Topic.Intervals])
 
 package leetcode.`986-interval-list-intersections`
 

@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.BinaryTree])
+@file:Problem(companies = [Company.Meta], topics = [Topic.BinaryTree])
 
 package leetcode.`1650-lowest-common-ancestor-of-a-binary-tree-III`.`solution-1`
 

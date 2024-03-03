@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.Queue])
+@file:Problem(companies = [Company.Meta], topics = [Topic.Queue])
 
 package leetcode.`346-moving-average-from-data-stream`
 

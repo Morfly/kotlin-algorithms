@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.QuickSelect])
+@file:Problem(companies = [Company.Meta], topics = [Topic.QuickSelect])
 
 package leetcode.`215-kth-largest-element-in-an-array`.`solution-4`
 

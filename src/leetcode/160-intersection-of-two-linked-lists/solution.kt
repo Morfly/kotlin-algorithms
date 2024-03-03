@@ -1,4 +1,4 @@
-@file:Meta(topics = [Topic.LinkedList])
+@file:Problem(topics = [Topic.LinkedList])
 
 package leetcode.`160-intersection-of-two-linked-lists`
 

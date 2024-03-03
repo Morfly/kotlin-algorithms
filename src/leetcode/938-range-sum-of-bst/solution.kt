@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta], topics = [Topic.BinaryTree, Topic.BinarySearchTree, Topic.DepthFirstSearch])
+@file:Problem(companies = [Company.Meta], topics = [Topic.BinaryTree, Topic.BinarySearchTree, Topic.DepthFirstSearch])
 
 package leetcode.`938-range-sum-of-bst`
 

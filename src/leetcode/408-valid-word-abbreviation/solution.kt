@@ -1,4 +1,4 @@
-@file:Meta(companies = [Company.Meta])
+@file:Problem(companies = [Company.Meta])
 
 package leetcode.`408-valid-word-abbreviation`
 
