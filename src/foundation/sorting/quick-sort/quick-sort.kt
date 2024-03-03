@@ -1,8 +1,15 @@
+@file:SortingAlgorithm(
+    Stable(false), InPlace(true), Comparative(true), Recursive(true),
+    "One of the most efficient sorting algorithms."
+)
+
 package foundation.sorting.`quick-sort`
 
 import foundation.sorting.`quick-sort`.partition.hoare.hoarePartition
 import io.morfly.algorithms.tools.isSorted
 
+@TimeComplexity("O(n log n)")
+@SpaceComplexity("O(log n)")
 fun IntArray.quickSort() {
     shuffle()
     quickSort(start = 0, end = size)
