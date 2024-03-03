@@ -1,7 +1,7 @@
 package foundation.`parallel-sorting`.`parallel-quick-sort`.coroutines
 
 import foundation.sorting.`insertion-sort`.range.insertionSort
-import foundation.sorting.`quick-sort`.partition.hoarePartition
+import foundation.sorting.`quick-sort`.partition.hoare.hoarePartition
 import foundation.sorting.`quick-sort`.quickSort
 import io.morfly.algorithms.tools.isSorted
 import kotlinx.coroutines.Dispatchers

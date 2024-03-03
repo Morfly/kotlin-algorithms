@@ -9,11 +9,11 @@ import io.morfly.algorithms.tools.isSorted
 
 @TimeComplexity("O(n + k)", Comment("n is the array size, k is the max element in the array."))
 @SpaceComplexity("O(n + k)")
-fun countingSort(array: IntArray) {
-    val max = array.max()
+fun IntArray.countingSort() {
+    val max = max()
     val count = IntArray(max + 1)
 
-    for (element in array) {
+    for (element in this) {
         count[element]++
     }
 
@@ -21,14 +21,14 @@ fun countingSort(array: IntArray) {
         count[i] += count[i - 1]
     }
 
-    val output = IntArray(array.size)
-    for (i in array.lastIndex downTo 0) {
-        val elementCount = count[array[i]]
-        output[elementCount - 1] = array[i]
-        count[array[i]]--
+    val output = IntArray(this.size)
+    for (i in lastIndex downTo 0) {
+        val elementCount = count[this[i]]
+        output[elementCount - 1] = this[i]
+        count[this[i]]--
     }
 
-    output.copyInto(array)
+    output.copyInto(this)
 }
 
 // https://youtu.be/EItdcGhSLf4?si=O65RX602_NfpJwR2
@@ -36,7 +36,7 @@ fun countingSort(array: IntArray) {
 fun main() {
     val array = intArrayOf(10, 2, 8, 3, 1, 5, 9)
 
-    countingSort(array)
+    array.countingSort()
 
     println(array.joinToString())
     require(array.isSorted())

@@ -6,21 +6,21 @@ import io.morfly.algorithms.tools.isSorted
 
 @TimeComplexity("O(n + k)", Comment("n is the array size, k is the max element in the array."))
 @SpaceComplexity("O(n + k)")
-fun radixSort(array: IntArray) {
-    val max = array.max()
+fun IntArray.radixSort() {
+    val max = max()
 
     var place = 1
     while (max / place > 0) {
-        countingSort(array, place)
+        countingSort(place)
         place *= 10
     }
 }
 
-fun countingSort(array: IntArray, place: Int) {
-    val max = array.max()
+fun IntArray.countingSort(place: Int) {
+    val max = max()
     val count = IntArray(max + 1)
 
-    for (element in array) {
+    for (element in this) {
         val digit = (element / place) % 10
         count[digit]++
     }
@@ -29,21 +29,21 @@ fun countingSort(array: IntArray, place: Int) {
         count[i] += count[i - 1]
     }
 
-    val output = IntArray(array.size)
-    for (i in array.lastIndex downTo 0) {
-        val digit = (array[i] / place) % 10
+    val output = IntArray(size)
+    for (i in lastIndex downTo 0) {
+        val digit = (this[i] / place) % 10
         val elementCount = count[digit]
-        output[elementCount - 1] = array[i]
+        output[elementCount - 1] = this[i]
         count[digit]--
     }
 
-    output.copyInto(array)
+    output.copyInto(this)
 }
 
 fun main() {
     val array = intArrayOf(121, 432, 564, 23, 1, 45, 788)
 
-    radixSort(array)
+    array.radixSort()
 
     println(array.joinToString())
     require(array.isSorted())

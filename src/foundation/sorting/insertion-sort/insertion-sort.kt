@@ -9,22 +9,22 @@ import io.morfly.algorithms.tools.isSorted
 
 @TimeComplexity("O(n^2)")
 @SpaceComplexity("O(1)")
-fun insertionSort(array: IntArray) {
-    for (i in 1..array.lastIndex) {
+fun IntArray.insertionSort() {
+    for (i in 1..lastIndex) {
         var j = i
-        val arri = array[i]
-        while (j > 0 && arri < array[j - 1]) {
-            array[j] = array[j - 1]
+        val arri = this[i]
+        while (j > 0 && arri < this[j - 1]) {
+            this[j] = this[j - 1]
             j--
         }
-        array[j] = arri
+        this[j] = arri
     }
 }
 
 fun main() {
     val array = intArrayOf(9, 5, 1, 4, 3)
 
-    insertionSort(array)
+    array.insertionSort()
 
     println(array.joinToString())
     require(array.isSorted())

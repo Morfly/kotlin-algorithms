@@ -1,6 +1,6 @@
 package foundation.sorting.`quick-sort`
 
-import foundation.sorting.`quick-sort`.partition.hoarePartition
+import foundation.sorting.`quick-sort`.partition.hoare.hoarePartition
 import io.morfly.algorithms.tools.isSorted
 
 fun IntArray.quickSort() {
