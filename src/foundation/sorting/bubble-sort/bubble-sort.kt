@@ -6,11 +6,11 @@ import io.morfly.algorithms.tools.isSorted
 
 @TimeComplexity("O(n^2)")
 @SpaceComplexity("O(1)")
-fun bubbleSort(array: IntArray) {
-    for (i in 0..<array.lastIndex) {
-        for (j in 0..<array.lastIndex - i) {
-            if (array[j] > array[j + 1]) {
-                array.swap(j, j + 1)
+fun IntArray.bubbleSort() {
+    for (i in 0..<lastIndex) {
+        for (j in 0..<lastIndex - i) {
+            if (this[j] > this[j + 1]) {
+                swap(j, j + 1)
             }
         }
     }
@@ -23,7 +23,7 @@ fun IntArray.swap(i: Int, j: Int) {
 fun main() {
     val array = intArrayOf(64, 34, 25, 12, 22, 11, 90)
 
-    bubbleSort(array)
+    array.bubbleSort()
 
     println(array.joinToString())
     require(array.isSorted())

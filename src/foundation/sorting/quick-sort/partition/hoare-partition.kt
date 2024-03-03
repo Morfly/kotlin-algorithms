@@ -1,7 +1,5 @@
 package foundation.sorting.`quick-sort`.partition
 
-import foundation.swap
-
 fun IntArray.hoarePartition(start: Int, end: Int): Int {
     val pivotPosition = (start + end - 1) / 2
     swap(pivotPosition, start)
@@ -21,4 +19,8 @@ fun IntArray.hoarePartition(start: Int, end: Int): Int {
     }
     swap(start, j)
     return j
+}
+
+fun IntArray.swap(i: Int, j: Int) {
+    this[i] = this[j].also { this[j] = this[i] }
 }
