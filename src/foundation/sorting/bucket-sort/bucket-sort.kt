@@ -1,15 +1,13 @@
-@file:SortingAlgorithm(
-    Stable(true), InPlace(false), Comparative(false), Recursive(false),
-    "Efficient for sorting floating point values that are uniformly distributed across a known range that is not excessively large."
-)
+// Efficient for sorting floating point values that are uniformly distributed across a known range that is not excessively large.
+@file:SortingAlgorithm(Stable(true), InPlace(false), Comparative(false), Recursive(false))
 
 package foundation.sorting.`bucket-sort`
 
 import io.morfly.algorithms.tools.*
 
+// n - array size, k - number of buckets.
 @TimeComplexities(
     Worst("O(n^2)"), Average("O(n + k)"),
-    "n - array size, k - number of buckets."
 )
 @SpaceComplexity("O(n + k)")
 fun FloatArray.bucketSort() {

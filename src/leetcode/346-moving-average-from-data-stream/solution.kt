@@ -6,8 +6,9 @@ class MovingAverage(val size: Int) {
     private val queue = ArrayDeque<Int>(size)
     private var sum = 0.0
 
+    // n is a size.
     @TimeComplexity("O(1)")
-    @SpaceComplexity("O(n)", "n is a size.")
+    @SpaceComplexity("O(n)")
     fun next(`val`: Int): Double {
         queue += `val`
         sum += `val`

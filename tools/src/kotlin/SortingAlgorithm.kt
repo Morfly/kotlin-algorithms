@@ -8,20 +8,19 @@ annotation class SortingAlgorithm(
     val inPlace: InPlace,
     val comparative: Comparative,
     val recursive: Recursive,
-    val comment: String = ""
 )
 
 /**
  * Equal array elements maintain their original relative order after sorting.
  */
 @Target()
-annotation class Stable(val value: Boolean, val comment: String = "")
+annotation class Stable(val value: Boolean)
 
 @Target()
-annotation class InPlace(val value: Boolean, val comment: String = "")
+annotation class InPlace(val value: Boolean)
 
 @Target()
-annotation class Comparative(val value: Boolean, val comment: String = "")
+annotation class Comparative(val value: Boolean)
 
 @Target()
-annotation class Recursive(val value: Boolean, val comment: String = "")
+annotation class Recursive(val value: Boolean)

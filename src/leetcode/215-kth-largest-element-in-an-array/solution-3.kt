@@ -13,7 +13,8 @@ data class IntWrapper(val value: Int) : Comparable<IntWrapper> {
     }
 }
 
-@TimeComplexity("O(n + k log n)", "It costs O(n) to heapify a list and O(k log n) to pop k times.")
+// It costs O(n) to heapify a list and O(k log n) to pop k times.
+@TimeComplexity("O(n + k log n)")
 @SpaceComplexity("O(n)")
 fun findKthLargest(nums: IntArray, k: Int): Int {
     val heap = PriorityQueue(nums.map(::IntWrapper))

@@ -4,7 +4,8 @@ package leetcode.`215-kth-largest-element-in-an-array`.`solution-2`
 
 import java.util.*
 
-@TimeComplexity("O(n log k)", "It costs O(log k) to push an element n times in a heap of size k.")
+// It costs O(log k) to push an element n times in a heap of size k.
+@TimeComplexity("O(n log k)")
 @SpaceComplexity("O(k)")
 fun findKthLargest(nums: IntArray, k: Int): Int {
     val heap = PriorityQueue<Int>(k)

@@ -1,7 +1,5 @@
-@file:SortingAlgorithm(
-    Stable(false), InPlace(true), Comparative(true), Recursive(true),
-    "One of the most efficient sorting algorithms."
-)
+// One of the most efficient sorting algorithms.
+@file:SortingAlgorithm(Stable(false), InPlace(true), Comparative(true), Recursive(true))
 
 package foundation.sorting.`quick-sort`
 
