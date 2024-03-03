@@ -4,6 +4,8 @@ package foundation.sorting.`bubble-sort`
 
 import io.morfly.algorithms.tools.isSorted
 
+@TimeComplexity("O(n^2)")
+@SpaceComplexity("O(1)")
 fun bubbleSort(array: IntArray) {
     for (i in 0..<array.lastIndex) {
         for (j in 0..<array.lastIndex - i) {
