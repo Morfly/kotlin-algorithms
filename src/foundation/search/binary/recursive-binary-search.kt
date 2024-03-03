@@ -1,5 +1,7 @@
 package foundation.search.binary.recursive
 
+@TimeComplexity("O(log n)")
+@SpaceComplexity("O(1)")
 fun IntArray.search(value: Int): Int {
 
     tailrec fun search(start: Int, end: Int): Int {

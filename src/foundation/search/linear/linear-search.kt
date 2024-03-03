@@ -1,6 +1,8 @@
 package foundation.search.linear
 
-fun <T> List<T>.search(value: T): Int {
+@TimeComplexity("O(log n)")
+@SpaceComplexity("O(1)")
+fun IntArray.search(value: Int): Int {
     for (i in 0..lastIndex) {
         if (this[i] == value) return i
     }
@@ -8,7 +10,7 @@ fun <T> List<T>.search(value: T): Int {
 }
 
 fun main() {
-    val list = listOf(10, 2, 8, 3, 1, 5, 9)
+    val list = intArrayOf(10, 2, 8, 3, 1, 5, 9)
 
     val index = list.search(8)
 

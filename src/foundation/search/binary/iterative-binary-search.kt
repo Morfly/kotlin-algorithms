@@ -1,5 +1,7 @@
 package foundation.search.binary.iterative
 
+@TimeComplexity("O(log n)")
+@SpaceComplexity("O(1)")
 fun IntArray.search(value: Int): Int {
     var start = 0
     var end = lastIndex
