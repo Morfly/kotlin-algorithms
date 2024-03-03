@@ -1,6 +1,5 @@
 package foundation.sorting.`insertion-sort`.sentinel
 
-import foundation.swap
 import io.morfly.algorithms.tools.isSorted
 
 fun IntArray.insertionSort(start: Int, end: Int) {
@@ -24,6 +23,10 @@ fun IntArray.insertionSort(start: Int, end: Int) {
         }
         this[j] = arri
     }
+}
+
+private fun IntArray.swap(i: Int, j: Int) {
+    this[i] = this[j].also { this[j] = this[i] }
 }
 
 fun main() {
