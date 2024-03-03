@@ -4,7 +4,8 @@ package foundation.sorting.`radix-sort`
 
 import io.morfly.algorithms.tools.*
 
-@TimeComplexity("O(n + k)", comment = "n - array size, k - max element in the array.")
+// n - array size, k - max element in the array.
+@TimeComplexity("O(n + k)")
 @SpaceComplexity("O(n + k)")
 fun IntArray.radixSort() {
     val max = max()
