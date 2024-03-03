@@ -1,6 +1,9 @@
 package kotlin
 
-@Target(AnnotationTarget.FILE)
+import kotlin.annotation.AnnotationTarget.FILE
+
+// TODO rename to Problem
+@Target(FILE)
 annotation class Meta(
     val companies: Array<Company> = [],
     val topics: Array<Topic> = []
@@ -18,9 +21,9 @@ enum class Topic {
     BinarySearchTree,
     Heap,
     Queue,
+    Stack,
     BreadthFirstSearch,
     DepthFirstSearch,
-    Stack,
     LinkedList,
     QuickSelect,
     Sorting,
