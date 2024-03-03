@@ -1,13 +1,13 @@
 @file:SortingAlgorithm(
     Stable(true), InPlace(false), Comparative(false), Recursive(false),
-    comment = "Efficient when the range of input values is small compared to the number of elements to be sorted."
+    "Efficient when the range of input values is small compared to the number of elements to be sorted."
 )
 
 package foundation.sorting.`counting-sort`
 
 import io.morfly.algorithms.tools.*
 
-@TimeComplexity("O(n + k)", Comment("n is the array size, k is the max element in the array."))
+@TimeComplexity("O(n + k)", "n is the array size, k is the max element in the array.")
 @SpaceComplexity("O(n + k)")
 fun IntArray.countingSort() {
     val max = max()

@@ -5,7 +5,7 @@ package leetcode.`1570-dot-product-of-two-sparce-arrays`
 typealias Index = Int
 
 @TimeComplexity("O(n)")
-@SpaceComplexity("O(p + q)", Comment("p and q are the numbers of non-zero numbers in the respective vectors."))
+@SpaceComplexity("O(p + q)", "p and q are the numbers of non-zero numbers in the respective vectors.")
 class SparseVector(nums: IntArray) {
     private val values = mutableMapOf<Index, Int>()
 
@@ -16,8 +16,8 @@ class SparseVector(nums: IntArray) {
         }
     }
 
-    @TimeComplexity("O(k)", Comment("k is the smaller number of non-zero numbers among two vectors. Only function."))
-    @SpaceComplexity("O(1)", Comment("Only function."))
+    @TimeComplexity("O(k)", "k is the smaller number of non-zero numbers among two vectors. Only this function.")
+    @SpaceComplexity("O(1)", "Only this function.")
     fun dotProduct(vec: SparseVector): Int {
         if (vec.values.size < this.values.size) return vec.dotProduct(this)
 

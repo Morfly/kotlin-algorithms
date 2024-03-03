@@ -2,8 +2,8 @@
 
 package leetcode.`986-interval-list-intersections`
 
-@TimeComplexity("(O(n + m)", Comment("n and m are lengths of corresponding lists."))
-@SpaceComplexity("O(k)", Comment("k is a number of intersections."))
+@TimeComplexity("(O(n + m)", "n and m are lengths of corresponding lists.")
+@SpaceComplexity("O(k)", "k is a number of intersections.")
 fun intervalIntersection(firstList: Array<IntArray>, secondList: Array<IntArray>): Array<IntArray> {
     val result = mutableListOf<IntArray>()
 

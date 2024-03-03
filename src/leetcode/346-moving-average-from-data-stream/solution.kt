@@ -7,7 +7,7 @@ class MovingAverage(val size: Int) {
     private var sum = 0.0
 
     @TimeComplexity("O(1)")
-    @SpaceComplexity("O(n)", Comment("n is a size."))
+    @SpaceComplexity("O(n)", "n is a size.")
     fun next(`val`: Int): Double {
         queue += `val`
         sum += `val`
