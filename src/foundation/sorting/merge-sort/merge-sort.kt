@@ -1,9 +1,9 @@
 package foundation.sorting.`merge-sort`
 
-import io.morfly.algorithms.tools.isSorted
+import io.morfly.algorithms.tools.*
 
 fun IntArray.mergeSort() {
-    mergeSort(this, copyOf(), start = 0, end = size)
+    mergeSort(array, copyOf(), start = 0, end = size)
 }
 
 fun mergeSort(arrA: IntArray, arrB: IntArray, start: Int, end: Int) {

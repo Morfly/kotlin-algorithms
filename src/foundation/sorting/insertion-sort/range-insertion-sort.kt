@@ -1,16 +1,16 @@
 package foundation.sorting.`insertion-sort`.range
 
-import io.morfly.algorithms.tools.isSorted
+import io.morfly.algorithms.tools.*
 
 fun IntArray.insertionSort(start: Int, end: Int) {
     for (i in start + 1 until end) {
         var j = i
-        val arri = this[i]
-        while (j > start && arri < this[j - 1]) {
-            this[j] = this[j - 1]
+        val arri = array[i]
+        while (j > start && arri < array[j - 1]) {
+            array[j] = array[j - 1]
             j--
         }
-        this[j] = arri
+        array[j] = arri
     }
 }
 

@@ -5,16 +5,16 @@
 
 package foundation.sorting.`insertion-sort`
 
-import io.morfly.algorithms.tools.isSorted
+import io.morfly.algorithms.tools.*
 
 @TimeComplexity("O(n^2)")
 @SpaceComplexity("O(1)")
 fun IntArray.insertionSort() {
     for (i in 1..lastIndex) {
         var j = i
-        val arri = this[i]
-        while (j > 0 && arri < this[j - 1]) {
-            this[j] = this[j - 1]
+        val arri = array[i]
+        while (j > 0 && arri < array[j - 1]) {
+            array[j] = array[j - 1]
             j--
         }
         this[j] = arri

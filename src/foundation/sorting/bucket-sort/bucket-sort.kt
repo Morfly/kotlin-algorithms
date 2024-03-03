@@ -6,7 +6,7 @@
 
 package foundation.sorting.`bucket-sort`
 
-import io.morfly.algorithms.tools.isSorted
+import io.morfly.algorithms.tools.*
 
 @TimeComplexities(
     worst = Worst("O(n^2)", Comment("all elements are in 1 bucket, depends on a sorting algorithm used for buckets.")),
@@ -17,7 +17,7 @@ import io.morfly.algorithms.tools.isSorted
 fun FloatArray.bucketSort() {
     val buckets = Array(size) { mutableListOf<Float>() }
 
-    for (element in this) {
+    for (element in array) {
         val bucketIndex = (element * size).toInt()
         buckets[bucketIndex] += element
     }

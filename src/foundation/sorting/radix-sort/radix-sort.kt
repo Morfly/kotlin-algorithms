@@ -2,7 +2,7 @@
 
 package foundation.sorting.`radix-sort`
 
-import io.morfly.algorithms.tools.isSorted
+import io.morfly.algorithms.tools.*
 
 @TimeComplexity("O(n + k)", Comment("n is the array size, k is the max element in the array."))
 @SpaceComplexity("O(n + k)")
@@ -20,7 +20,7 @@ fun IntArray.countingSort(place: Int) {
     val max = max()
     val count = IntArray(max + 1)
 
-    for (element in this) {
+    for (element in array) {
         val digit = (element / place) % 10
         count[digit]++
     }
@@ -31,13 +31,13 @@ fun IntArray.countingSort(place: Int) {
 
     val output = IntArray(size)
     for (i in lastIndex downTo 0) {
-        val digit = (this[i] / place) % 10
+        val digit = (array[i] / place) % 10
         val elementCount = count[digit]
-        output[elementCount - 1] = this[i]
+        output[elementCount - 1] = array[i]
         count[digit]--
     }
 
-    output.copyInto(this)
+    output.copyInto(array)
 }
 
 fun main() {

@@ -1,10 +1,12 @@
 package foundation.sorting.`quick-sort`.partition.lomuto
 
+import io.morfly.algorithms.tools.array
+
 fun IntArray.lomutoPartition(start: Int, end: Int): Int {
-    val pivot = this[end - 1]
+    val pivot = array[end - 1]
     var i = start - 1
     for (j in start until end) {
-        if (this[j] < pivot) {
+        if (array[j] < pivot) {
             i++
             swap(i, j)
         }
@@ -14,5 +16,5 @@ fun IntArray.lomutoPartition(start: Int, end: Int): Int {
 }
 
 private fun IntArray.swap(i: Int, j: Int) {
-    this[i] = this[j].also { this[j] = this[i] }
+    array[i] = array[j].also { array[j] = array[i] }
 }

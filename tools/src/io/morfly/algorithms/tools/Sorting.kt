@@ -1,5 +1,8 @@
 package io.morfly.algorithms.tools
 
+val IntArray.array: IntArray get() = this
+val FloatArray.array: FloatArray get() = this
+
 fun IntArray.isSorted(): Boolean {
     for (i in 0 until size - 1) {
         if (this[i] > this[i + 1]) {

@@ -5,7 +5,7 @@ import io.morfly.algorithms.tools.isSorted
 
 fun IntArray.quickSort() {
     shuffle()
-    quickSort(0, size)
+    quickSort(start = 0, end = size)
 }
 
 fun IntArray.quickSort(start: Int, end: Int) {

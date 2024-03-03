@@ -1,7 +1,7 @@
 package foundation.sorting.`shell-sort`
 
 import foundation.sorting.`shell-sort`.`gap-sequence`.ciuraGapSequence
-import io.morfly.algorithms.tools.isSorted
+import io.morfly.algorithms.tools.*
 
 fun IntArray.shellSort() {
     shellSort(ciuraGapSequence)
@@ -9,14 +9,14 @@ fun IntArray.shellSort() {
 
 fun IntArray.shellSort(gaps: IntArray) {
     for (gap in gaps) {
-        for (i in gap..lastIndex) {
+        for (i in gap..array.lastIndex) {
             var j = i
-            val arri = this[i]
-            while (j >= gap && arri < this[j - gap]) {
-                this[j] = this[j - gap]
+            val arri = array[i]
+            while (j >= gap && arri < array[j - gap]) {
+                array[j] = array[j - gap]
                 j -= gap
             }
-            this[j] = arri
+            array[j] = arri
         }
     }
 }

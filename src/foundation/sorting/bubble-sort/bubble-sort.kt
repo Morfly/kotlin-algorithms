@@ -2,14 +2,14 @@
 
 package foundation.sorting.`bubble-sort`
 
-import io.morfly.algorithms.tools.isSorted
+import io.morfly.algorithms.tools.*
 
 @TimeComplexity("O(n^2)")
 @SpaceComplexity("O(1)")
 fun IntArray.bubbleSort() {
-    for (i in 0..<lastIndex) {
-        for (j in 0..<lastIndex - i) {
-            if (this[j] > this[j + 1]) {
+    for (i in 0..<array.lastIndex) {
+        for (j in 0..<array.lastIndex - i) {
+            if (array[j] > array[j + 1]) {
                 swap(j, j + 1)
             }
         }
@@ -17,7 +17,7 @@ fun IntArray.bubbleSort() {
 }
 
 private fun IntArray.swap(i: Int, j: Int) {
-    this[i] = this[j].also { this[j] = this[i] }
+    array[i] = array[j].also { array[j] = array[i] }
 }
 
 fun main() {
