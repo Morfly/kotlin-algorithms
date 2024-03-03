@@ -1,6 +1,5 @@
 @file:SortingAlgorithm(
-    Stable(true, comment = "Only if the underlying algorithm for sorting buckets is stable."),
-    InPlace(false), Comparative(false), Recursive(false),
+    Stable(true), InPlace(false), Comparative(false), Recursive(false),
     "Efficient for sorting floating point values that are uniformly distributed across a known range that is not excessively large."
 )
 
@@ -8,7 +7,7 @@ package foundation.sorting.`bucket-sort`
 
 import io.morfly.algorithms.tools.*
 
-@TimeComplexities(Worst("O(n^2)"), Average("O(n + k)"), "n is the array size, k is the number of buckets.")
+@TimeComplexities(Worst("O(n^2)"), Average("O(n + k)"), "n - array size, k - number of buckets.")
 @SpaceComplexity("O(n + k)")
 fun FloatArray.bucketSort() {
     val buckets = Array(size) { mutableListOf<Float>() }
