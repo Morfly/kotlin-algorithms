@@ -1,7 +1,11 @@
+@file:SortingAlgorithm(Stable(true), InPlace(false), Comparative(true), Recursive(true))
+
 package foundation.sorting.`merge-sort`
 
 import io.morfly.algorithms.tools.*
 
+@TimeComplexity("O(n log n)")
+@SpaceComplexity("O(n)")
 fun IntArray.mergeSort() {
     mergeSort(array, copyOf(), start = 0, end = size)
 }

@@ -1,14 +1,18 @@
+@file:SortingAlgorithm(Stable(false), InPlace(true), Comparative(true), Recursive(false))
+
 package foundation.sorting.`shell-sort`
 
 import foundation.sorting.`shell-sort`.`gap-sequence`.ciuraGapSequence
 import io.morfly.algorithms.tools.*
 
+@TimeComplexity("Depends on gap sequence.")
+@SpaceComplexity("O(1)")
 fun IntArray.shellSort() {
     shellSort(ciuraGapSequence)
 }
 
-fun IntArray.shellSort(gaps: IntArray) {
-    for (gap in gaps) {
+fun IntArray.shellSort(gapSequence: IntArray) {
+    for (gap in gapSequence) {
         for (i in gap..array.lastIndex) {
             var j = i
             val arri = array[i]
