@@ -16,7 +16,7 @@ enum class Company {
 
 enum class Topic {
     Array,
-    HashMap, // TODO rename to HashTable
+    HashTable,
     SlidingWindow,
     BinarySearch,
     BinaryTree,

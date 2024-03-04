@@ -1,4 +1,4 @@
-@file:Problem(companies = [Company.Meta], topics = [Topic.HashMap, Topic.Sorting])
+@file:Problem(companies = [Company.Meta], topics = [Topic.HashTable, Topic.Sorting])
 
 package leetcode.`791-custom-sort-string`.`solution-1`
 
