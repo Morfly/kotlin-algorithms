@@ -15,12 +15,16 @@ enum class Company {
 }
 
 enum class Topic {
+    String,
     Array,
+    Matrix,
     HashTable,
     SlidingWindow,
+    Recursion,
     BinarySearch,
     BinaryTree,
     BinarySearchTree,
+    Tree,
     Heap,
     Queue,
     Stack,
@@ -35,4 +39,5 @@ enum class Topic {
     Intervals,
     BitManipulation,
     PrefixSum,
+    Math,
 }
