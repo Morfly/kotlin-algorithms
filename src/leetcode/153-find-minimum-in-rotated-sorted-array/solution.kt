@@ -1,7 +1,9 @@
-@file:Problem(companies = [Company.Meta], topics = [Topic.BinarySearch])
+@file:Problem(companies = [Company.Meta], topics = [Topic.BinarySearch, Topic.Array])
 
 package leetcode.`153-find-minimum-in-rotated-sorted-array`
 
+@TimeComplexity("O(log n)")
+@SpaceComplexity("O(1)")
 fun findMin(nums: IntArray): Int {
     var start = 0
     var end = nums.lastIndex
