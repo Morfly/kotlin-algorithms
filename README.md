@@ -46,6 +46,8 @@
 
 - [1. Two Sum](src/leetcode/1-two-sum/solution.kt)
 - [20. Valid Parentheses](src/leetcode/20-valid-parentheses/solution.kt)
+- [21. Merge Two Sorted Lists](src/leetcode/21-merge-two-sorted-lists/solution.kt)
+- [23. Merge k Sorted Lists](src/leetcode/23-merge-k-sorted-lists/solution-3.kt)
 - [39. Combination Sum](src/leetcode/39-combination-sum/solution.kt)
 - [40. Combination Sum II](src/leetcode/40-combination-sum-II/solution.kt)
 - [46. Permutations](src/leetcode/46-permutations/solution.kt)
@@ -84,7 +86,9 @@
 - [408. Valid Word Abbreviation](src/leetcode/408-valid-word-abbreviation/solution.kt)
 - [426. Convert Binary Search Tree to Sorted Doubly Linked List](src/leetcode/426-convert-binary-search-tree-to-sorted-doubly-linked-list/solution.kt)
 - [450. Delete Node in a BST](src/leetcode/450-delete-node-in-a-bst/solution.kt)
+- [523. Continuous Subarray Sum](src/leetcode/523-continuous-subarray-sum/solution.kt)
 - [528. Random Pick with Weight](src/leetcode/528-random-pick-with-weight/solution.kt)
+- [658. Find K Closest Elements](src/leetcode/658-find-k-closest-elements/solution-1.kt)
 - [791. Custom Sort String](src/leetcode/791-custom-sort-string/solution-2.kt)
 - [919. Meeting Rooms II](src/leetcode/919-meeting-rooms-II/solution.kt)
 - [938. Range Sum of BST](src/leetcode/938-range-sum-of-bst/solution.kt)

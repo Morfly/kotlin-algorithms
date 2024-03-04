@@ -16,7 +16,8 @@ enum class Company {
 
 enum class Topic {
     Array,
-    HashMap,
+    HashMap, // TODO rename to HashTable
+    SlidingWindow,
     BinarySearch,
     BinaryTree,
     BinarySearchTree,
@@ -33,4 +34,5 @@ enum class Topic {
     TwoPointers,
     Intervals,
     BitManipulation,
+    PrefixSum,
 }
