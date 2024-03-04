@@ -65,6 +65,7 @@
 - [88. Merge Sorted Array](src/leetcode/88-merge-sorted-array/solution.kt)
 - [90. Subsets II](src/leetcode/90-subsets-II/solution.kt)
 - [121. Best Time to Buy and Sell Stock](src/leetcode/121-best-time-to-buy-and-sell-stock/solution.kt)
+- [125. Valid Palindrome](src/leetcode/125-valid-palindrome/solution.kt)
 - [131. Palindrome Partitioning](src/leetcode/131-palindrome-partitioning/solution.kt)
 - [136. Single Number](src/leetcode/136-single-number/solution.kt)
 - [152. Maximum Product Subarray](src/leetcode/152-maximum-product-subarray/solution.kt)
