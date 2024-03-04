@@ -97,6 +97,7 @@
 - [658. Find K Closest Elements](src/leetcode/658-find-k-closest-elements/solution-1.kt)
 - [791. Custom Sort String](src/leetcode/791-custom-sort-string/solution-2.kt)
 - [919. Meeting Rooms II](src/leetcode/919-meeting-rooms-II/solution.kt)
+- [921. Minimum Add to Make Parentheses Valid](src/leetcode/921-minimum-add-to-make-parentheses-valid/solution.kt)
 - [938. Range Sum of BST](src/leetcode/938-range-sum-of-bst/solution.kt)
 - [986. Interval List Intersections](src/leetcode/986-interval-list-intersections/solution.kt)
 - [1249. Minimum Remove to Make Valid Parentheses](src/leetcode/1249-minimum-remove-to-make-valid-parentheses/solution.kt)
