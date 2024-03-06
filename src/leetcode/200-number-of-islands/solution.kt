@@ -1,6 +1,9 @@
+@file:Problem(companies = [Company.Meta], topics = [Topic.Array, Topic.Matrix, Topic.BreadthFirstSearch])
+
 package leetcode.`200-number-of-islands`
 
-// https://leetcode.com/problems/number-of-islands/description/
+@TimeComplexity("O(m * n)")
+@SpaceComplexity("O(1)")
 fun numIslands(grid: Array<CharArray>): Int {
     var numIslands = 0
 
