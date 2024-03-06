@@ -4,12 +4,14 @@ package foundation.graph.`breadth-first-search`.traversal
 
 typealias Graph<T> = Map<T, List<T>>
 
+typealias Queue<T> = ArrayDeque<T>
+
 fun <T> Graph<T>.traverse(root: T): List<T> {
     val graph = this
     require(root in graph) { "Invalid root vertex '$root'" }
 
     val explored = linkedSetOf<T>()
-    val queue = ArrayDeque<T>()
+    val queue = Queue<T>()
     queue += root
 
     while (queue.isNotEmpty()) {
