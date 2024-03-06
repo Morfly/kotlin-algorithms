@@ -100,6 +100,7 @@
 - [921. Minimum Add to Make Parentheses Valid](src/leetcode/921-minimum-add-to-make-parentheses-valid/solution.kt)
 - [938. Range Sum of BST](src/leetcode/938-range-sum-of-bst/solution.kt)
 - [986. Interval List Intersections](src/leetcode/986-interval-list-intersections/solution.kt)
+- [1091. Shortest Path in Binary Matrix](src/leetcode/1091-shortest-path-in-binary-matrix/solution.kt)
 - [1249. Minimum Remove to Make Valid Parentheses](src/leetcode/1249-minimum-remove-to-make-valid-parentheses/solution.kt)
 - [1522. Diameter of N-Ary Tree](src/leetcode/1522-diameter-of-n-ary-tree/solution.kt)
 - [1570. Dot Product of Two Sparse Vectors](src/leetcode/1570-dot-product-of-two-sparce-arrays/solution.kt)
