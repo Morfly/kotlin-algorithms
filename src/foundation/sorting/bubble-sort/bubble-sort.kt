@@ -1,4 +1,4 @@
-@file:SortingAlgorithm(Stable(true), InPlace(true), Comparative(true), Recursive(false))
+@file:SortingAlgorithm(stable.yes, `in-place`.yes, comparative.yes, recursive.no)
 
 package foundation.sorting.`bubble-sort`
 

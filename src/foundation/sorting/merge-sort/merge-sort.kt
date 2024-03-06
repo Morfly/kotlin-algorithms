@@ -1,4 +1,4 @@
-@file:SortingAlgorithm(Stable(true), InPlace(false), Comparative(true), Recursive(true))
+@file:SortingAlgorithm(stable.yes, `in-place`.no, comparative.yes, recursive.yes)
 
 package foundation.sorting.`merge-sort`
 

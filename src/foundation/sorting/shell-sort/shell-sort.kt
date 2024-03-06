@@ -1,4 +1,4 @@
-@file:SortingAlgorithm(Stable(false), InPlace(true), Comparative(true), Recursive(false))
+@file:SortingAlgorithm(stable.no, `in-place`.yes, comparative.yes, recursive.no)
 
 package foundation.sorting.`shell-sort`
 

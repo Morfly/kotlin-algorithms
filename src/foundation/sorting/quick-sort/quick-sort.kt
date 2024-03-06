@@ -1,5 +1,5 @@
 // One of the most efficient sorting algorithms.
-@file:SortingAlgorithm(Stable(false), InPlace(true), Comparative(true), Recursive(true))
+@file:SortingAlgorithm(stable.no, `in-place`.yes, comparative.yes, recursive.yes)
 
 package foundation.sorting.`quick-sort`
 

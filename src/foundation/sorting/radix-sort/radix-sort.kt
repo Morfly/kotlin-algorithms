@@ -1,4 +1,4 @@
-@file:SortingAlgorithm(Stable(true), InPlace(false), Comparative(false), Recursive(false))
+@file:SortingAlgorithm(stable.yes, `in-place`.no, comparative.no, recursive.no)
 
 package foundation.sorting.`radix-sort`
 

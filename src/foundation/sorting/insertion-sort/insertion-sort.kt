@@ -1,5 +1,5 @@
 // One of the most efficient algorithms for sorting small arrays of data.
-@file:SortingAlgorithm(Stable(true), InPlace(true), Comparative(true), Recursive(false))
+@file:SortingAlgorithm(stable.yes, `in-place`.yes, comparative.yes, recursive.no)
 
 package foundation.sorting.`insertion-sort`
 
