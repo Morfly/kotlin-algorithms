@@ -1,3 +1,5 @@
+@file:GraphAlgorithm(directed.both, cyclic.both, weighted.both)
+
 package foundation.graph.`breadth-first-search`.grid
 
 typealias Graph<T> = Array<Array<out T>>

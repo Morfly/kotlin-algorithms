@@ -1,3 +1,5 @@
+@file:GraphAlgorithm(directed.both, cyclic.both, weighted.both)
+
 package foundation.graph.`breadth-first-search`.search
 
 typealias Graph<T> = Map<T, List<T>>
