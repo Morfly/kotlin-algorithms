@@ -20,6 +20,7 @@ enum class Topic {
     Matrix,
     HashTable,
     SlidingWindow,
+    DynamicProgramming,
     Recursion,
     BinarySearch,
     BinaryTree,

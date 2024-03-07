@@ -1,6 +1,9 @@
+@file:Problem(topics = [Topic.DynamicProgramming, Topic.Array])
+
 package leetcode.`121-best-time-to-buy-and-sell-stock`
 
-// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+@TimeComplexity("O(n)")
+@SpaceComplexity("O(1)")
 fun maxProfit(prices: IntArray): Int {
     var maxProfit = 0
 
@@ -18,7 +21,7 @@ fun maxProfit(prices: IntArray): Int {
 }
 
 fun main() {
-    val prices = intArrayOf(7,1,5,3,6,4)
+    val prices = intArrayOf(7, 1, 5, 3, 6, 4)
 
     val result = maxProfit(prices)
 
