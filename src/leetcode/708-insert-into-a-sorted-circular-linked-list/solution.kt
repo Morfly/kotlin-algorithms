@@ -1,9 +1,13 @@
+@file:Problem(companies = [Company.Meta], topics = [Topic.LinkedList])
+
 package leetcode.`708-insert-into-a-sorted-circular-linked-list`
 
 class Node(var `val`: Int) {
     var next: Node? = null
 }
 
+@TimeComplexity("O(n)")
+@SpaceComplexity("O(1)")
 fun insert(head: Node?, insertVal: Int): Node? {
     if (head == null) {
         val node = Node(insertVal)
@@ -32,7 +36,7 @@ fun insert(head: Node?, insertVal: Int): Node? {
     return head
 }
 
-private fun Node.insert(new: Node) {
+fun Node.insert(new: Node) {
     new.next = this.next
     this.next = new
 }
