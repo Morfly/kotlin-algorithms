@@ -19,6 +19,7 @@ enum class Topic {
     Array,
     Matrix,
     HashTable,
+    Backtracking,
     SlidingWindow,
     DynamicProgramming,
     Recursion,
