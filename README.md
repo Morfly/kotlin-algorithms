@@ -67,6 +67,7 @@
 - [79. Word Search](src/leetcode/79-word-search/solution.kt)
 - [88. Merge Sorted Array](src/leetcode/88-merge-sorted-array/solution.kt)
 - [90. Subsets II](src/leetcode/90-subsets-II/solution.kt)
+- [94. Binary Tree Inorder Traversal](src/leetcode/94-binary-tree-inorder-traversal/solution-1.kt)
 - [112. Path Sum](src/leetcode/112-path-sum/solution.kt)
 - [121. Best Time to Buy and Sell Stock](src/leetcode/121-best-time-to-buy-and-sell-stock/solution.kt)
 - [125. Valid Palindrome](src/leetcode/125-valid-palindrome/solution.kt)
