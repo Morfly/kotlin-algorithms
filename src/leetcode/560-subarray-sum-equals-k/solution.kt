@@ -22,6 +22,7 @@ fun subarraySum(nums: IntArray, k: Int): Int {
     return counter
 }
 
+// https://youtu.be/9fjGM0d1YQQ?si=aKdbSfrEkMl5EDVG
 fun main() {
     val input = intArrayOf(1, -1, 0)
 
