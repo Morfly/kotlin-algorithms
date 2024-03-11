@@ -50,6 +50,7 @@
 - [20. Valid Parentheses](src/leetcode/20-valid-parentheses/solution.kt)
 - [21. Merge Two Sorted Lists](src/leetcode/21-merge-two-sorted-lists/solution.kt)
 - [23. Merge k Sorted Lists](src/leetcode/23-merge-k-sorted-lists/solution-3.kt)
+- [34. Find First and Last Position of Element in Sorted Array](src/leetcode/34-find-first-and-last-position-of-element-in-sorted-array/solution.kt)
 - [39. Combination Sum](src/leetcode/39-combination-sum/solution.kt)
 - [40. Combination Sum II](src/leetcode/40-combination-sum-II/solution.kt)
 - [46. Permutations](src/leetcode/46-permutations/solution.kt)
