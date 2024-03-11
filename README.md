@@ -84,6 +84,7 @@
 - [226. Invert Binary Tree](src/leetcode/226-invert-binary-tree/solution.kt)
 - [227. Basic Calculator II](src/leetcode/227-basic-calculator-II/solution.kt)
 - [252. Meeting Rooms](src/leetcode/252-meeting-rooms/solution.kt)
+- [270. Closest Binary Search Tree Value](src/leetcode/270-closest-binary-search-tree-value/solution.kt)
 - [277. Find the Celebrity](src/leetcode/277-find-the-celebrity/solution.kt)
 - [283. Move Zeros](src/leetcode/283-move-zeros/solution.kt)
 - [314. Binary Tree Vertical Order Traversal](src/leetcode/314-binary-tree-vertical-order-traversal/solution.kt)
