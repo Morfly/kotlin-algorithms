@@ -100,6 +100,7 @@
 - [450. Delete Node in a BST](src/leetcode/450-delete-node-in-a-bst/solution.kt)
 - [523. Continuous Subarray Sum](src/leetcode/523-continuous-subarray-sum/solution.kt)
 - [528. Random Pick with Weight](src/leetcode/528-random-pick-with-weight/solution.kt)
+- [543. Diameter of Binary Tree](src/leetcode/543-diameter-of-binary-tree/solution.kt)
 - [658. Find K Closest Elements](src/leetcode/658-find-k-closest-elements/solution-1.kt)
 - [695. Max Area of Island](src/leetcode/695-max-area-of-islands/solution.kt)
 - [708. Insert into a Sorted Circular Linked List](src/leetcode/708-insert-into-a-sorted-circular-linked-list/solution.kt)
