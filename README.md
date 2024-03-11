@@ -8,6 +8,7 @@
 - [Binary tree](src/foundation/binary-tree)
     - [Breadth-first search](src/foundation/binary-tree/breadth-first-search)
     - [Depth-first search](src/foundation/binary-tree/depth-first-search)
+    - [Morris traversal](src/foundation/binary-tree/morris-traversal)
 - [Disjoint set union](src/foundation/disjoint-set-union)
 - [Graph](src/foundation/graph)
     - [Breadth-first search](src/foundation/graph/breadth-first-search)
