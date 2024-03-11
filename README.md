@@ -94,6 +94,7 @@
 - [350. Intersection of Two Arrays II](src/leetcode/350-intercection-of-two-arrays-II/solution.kt)
 - [408. Valid Word Abbreviation](src/leetcode/408-valid-word-abbreviation/solution.kt)
 - [426. Convert Binary Search Tree to Sorted Doubly Linked List](src/leetcode/426-convert-binary-search-tree-to-sorted-doubly-linked-list/solution.kt)
+- [428. Serialize and Deserialize N-ary Tree](src/leetcode/428-serialize-and-deserialize-n-ary-tree/solution.kt)
 - [450. Delete Node in a BST](src/leetcode/450-delete-node-in-a-bst/solution.kt)
 - [523. Continuous Subarray Sum](src/leetcode/523-continuous-subarray-sum/solution.kt)
 - [528. Random Pick with Weight](src/leetcode/528-random-pick-with-weight/solution.kt)
