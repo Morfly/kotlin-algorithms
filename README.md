@@ -97,6 +97,7 @@
 - [346. Moving Average from Data Stream](src/leetcode/346-moving-average-from-data-stream/solution.kt)
 - [347. Top K Frequent Elements](src/leetcode/347-top-k-frequent-elements/solution-2.kt)
 - [350. Intersection of Two Arrays II](src/leetcode/350-intercection-of-two-arrays-II/solution.kt)
+- [383. Ransom Note](src/leetcode/383-ransom-note/solution-2.kt)
 - [408. Valid Word Abbreviation](src/leetcode/408-valid-word-abbreviation/solution.kt)
 - [426. Convert Binary Search Tree to Sorted Doubly Linked List](src/leetcode/426-convert-binary-search-tree-to-sorted-doubly-linked-list/solution.kt)
 - [428. Serialize and Deserialize N-ary Tree](src/leetcode/428-serialize-and-deserialize-n-ary-tree/solution.kt)
