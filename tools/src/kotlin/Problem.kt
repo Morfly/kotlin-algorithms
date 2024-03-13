@@ -44,4 +44,5 @@ enum class Topic {
     BitManipulation,
     PrefixSum,
     Math,
+    Memoization,
 }

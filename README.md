@@ -76,6 +76,7 @@
 - [129. Sum Root to Leaf Numbers](src/leetcode/129-sum-root-to-leaf-numbers/solution.kt)
 - [131. Palindrome Partitioning](src/leetcode/131-palindrome-partitioning/solution.kt)
 - [136. Single Number](src/leetcode/136-single-number/solution.kt)
+- [139. Word Break](src/leetcode/139-word-break/solution.kt)
 - [152. Maximum Product Subarray](src/leetcode/152-maximum-product-subarray/solution.kt)
 - [153. Find Minimum in Rotated Sorted Array](src/leetcode/153-find-minimum-in-rotated-sorted-array/solution.kt)
 - [160. Intersection of Two Linked Lists](src/leetcode/160-intersection-of-two-linked-lists/solution.kt)
