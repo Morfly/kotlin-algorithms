@@ -40,6 +40,7 @@ fun alienOrder(words: Array<String>): String {
         explored += char
         for (successor in dict[char].orEmpty()) {
             if (successor !in explored) {
+                if (!valid) return
                 topSort(successor)
             } else if (successor !in result) {
                 valid = false
