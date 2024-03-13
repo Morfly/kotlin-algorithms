@@ -5,7 +5,7 @@ typealias Graph<T> = Map<T, List<T>>
 fun <T> Graph<T>.topologicalSort(): List<T> {
     val graph = this
     val explored = mutableSetOf<T>()
-    val result = mutableListOf<T>()
+    val result = linkedSetOf<T>()
 
     fun explore(vertex: T) {
         explored += vertex
@@ -25,7 +25,7 @@ fun <T> Graph<T>.topologicalSort(): List<T> {
         }
     }
 
-    return result.asReversed()
+    return result.reversed()
 }
 
 fun main() {

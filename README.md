@@ -87,6 +87,7 @@
 - [227. Basic Calculator II](src/leetcode/227-basic-calculator-II/solution.kt)
 - [252. Meeting Rooms](src/leetcode/252-meeting-rooms/solution.kt)
 - [253. Meeting Rooms II](src/leetcode/253-meeting-rooms-II/solution.kt)
+- [269. Alien Dictionary](src/leetcode/269-alien-dictionary/solution.kt)
 - [270. Closest Binary Search Tree Value](src/leetcode/270-closest-binary-search-tree-value/solution.kt)
 - [277. Find the Celebrity](src/leetcode/277-find-the-celebrity/solution.kt)
 - [283. Move Zeros](src/leetcode/283-move-zeros/solution.kt)

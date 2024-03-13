@@ -1,4 +1,4 @@
-@file:Problem(companies = [Company.Meta], topics = [Topic.Array, Topic.Matrix, Topic.BreadthFirstSearch])
+@file:Problem(companies = [Company.Meta], topics = [Topic.Array, Topic.Matrix, Topic.DepthFirstSearch])
 
 package leetcode.`200-number-of-islands`
 
