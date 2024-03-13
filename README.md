@@ -82,6 +82,7 @@
 - [191. Number of 1 Bits](src/leetcode/191-number-of-1-bits/solution.kt)
 - [199. Binary Tree Right Side View](src/leetcode/199-binary-tree-right-side-view/solution.kt)
 - [200. Number of Islands](src/leetcode/200-number-of-islands/solution.kt)
+- [207. Course Schedule](src/leetcode/207-course-schedule/solution.kt)
 - [215. Kth Largest Element in an Array](src/leetcode/215-kth-largest-element-in-an-array/solution-2.kt)
 - [226. Invert Binary Tree](src/leetcode/226-invert-binary-tree/solution.kt)
 - [227. Basic Calculator II](src/leetcode/227-basic-calculator-II/solution.kt)
