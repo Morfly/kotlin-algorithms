@@ -123,6 +123,7 @@
 - [1091. Shortest Path in Binary Matrix](src/leetcode/1091-shortest-path-in-binary-matrix/solution.kt)
 - [1249. Minimum Remove to Make Valid Parentheses](src/leetcode/1249-minimum-remove-to-make-valid-parentheses/solution.kt)
 - [1522. Diameter of N-Ary Tree](src/leetcode/1522-diameter-of-n-ary-tree/solution.kt)
+- [1539. Kth Missing Positive Number](src/leetcode/1539-kth-missing-positive-number/solution.kt)
 - [1570. Dot Product of Two Sparse Vectors](src/leetcode/1570-dot-product-of-two-sparce-arrays/solution.kt)
 - [1650. Lowest Common Ancestor of a Binary Tree III](src/leetcode/1650-lowest-common-ancestor-of-a-binary-tree-III/solution-2.kt)
 - [1762. Buildings With an Ocean View](src/leetcode/1762-buildings-with-an-ocean-view/solution.kt)
