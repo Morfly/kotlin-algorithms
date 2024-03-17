@@ -2,6 +2,8 @@
 
 package leetcode.`1249-minimum-remove-to-make-valid-parentheses`
 
+@TimeComplexity("O(n)")
+@SpaceComplexity("O(n)")
 fun minRemoveToMakeValid(s: String): String {
     val open = ArrayDeque<Int>()
     val indicesToRemove = mutableSetOf<Int>()
