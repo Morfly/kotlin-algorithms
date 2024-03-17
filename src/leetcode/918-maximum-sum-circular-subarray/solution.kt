@@ -8,15 +8,15 @@ fun maxSubarraySumCircular(nums: IntArray): Int {
     var totalSum = 0
     var currMinSum = 0
     var currMaxSum = 0
-    var maxSum = Int.MIN_VALUE
     var minSum = Int.MAX_VALUE
+    var maxSum = Int.MIN_VALUE
 
     for (num in nums) {
         totalSum += num
-        currMaxSum = maxOf(currMaxSum + num, num)
         currMinSum = minOf(currMinSum + num, num)
-        maxSum = maxOf(maxSum, currMaxSum)
+        currMaxSum = maxOf(currMaxSum + num, num)
         minSum = minOf(minSum, currMinSum)
+        maxSum = maxOf(maxSum, currMaxSum)
     }
 
     return if (maxSum < 0) {
