@@ -1,4 +1,4 @@
-@file:Problem(companies = [Company.Meta], topics = [Topic.TwoPointers, Topic.String])
+@file:Problem(companies = [Company.Meta], topics = [Topic.TwoPointers, Topic.String], comment = "*")
 
 package leetcode.`125-valid-palindrome`
 

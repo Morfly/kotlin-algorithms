@@ -1,4 +1,4 @@
-@file:Problem(companies = [Company.Meta], topics = [Topic.BinaryTree, Topic.DepthFirstSearch])
+@file:Problem(companies = [Company.Meta], topics = [Topic.BinaryTree, Topic.DepthFirstSearch], comment = "*")
 
 package leetcode.`543-diameter-of-binary-tree`
 

@@ -5,7 +5,8 @@ import kotlin.annotation.AnnotationTarget.FILE
 @Target(FILE)
 annotation class Problem(
     val companies: Array<Company> = [],
-    val topics: Array<Topic> = []
+    val topics: Array<Topic> = [],
+    val comment: String = ""
 )
 
 enum class Company {

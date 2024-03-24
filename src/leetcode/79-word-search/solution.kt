@@ -1,4 +1,7 @@
-@file:Problem(companies = [Company.Meta], topics = [Topic.Array, Topic.Matrix, Topic.Backtracking, Topic.String])
+@file:Problem(
+    companies = [Company.Meta], topics = [Topic.Array, Topic.Matrix, Topic.Backtracking, Topic.String],
+    comment = "*"
+)
 
 package leetcode.`79-word-search`
 
