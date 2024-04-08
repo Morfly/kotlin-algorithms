@@ -1,5 +1,7 @@
 package foundation.`binary-search-tree`.iterative
 
+import io.morfly.algorithms.tools.printBinaryTree
+
 class BinarySearchTree(val value: Int) {
     var left: BinarySearchTree? = null
         private set
@@ -39,9 +41,14 @@ class BinarySearchTree(val value: Int) {
 
 fun main() {
     val tree = BinarySearchTree(3).apply {
-        insert(5)
+        insert(6)
         insert(1)
         insert(4)
+        insert(7)
         insert(2)
     }
+    tree.printBinaryTree()
+
+    tree.insert(5)
+    tree.printBinaryTree()
 }
