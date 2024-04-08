@@ -2,20 +2,13 @@ package foundation.`minimum-spanning-tree`.kruskal
 
 import foundation.`disjoint-set-union`.`hash-map`.DisjointSet
 
-data class Edge(
-    val src: String,
-    val dest: String,
-    val weight: Int
-) : Comparable<Edge> {
-
-    override fun compareTo(other: Edge) = weight.compareTo(other.weight)
-}
+data class Edge(val src: String, val dest: String, val weight: Int)
 
 fun minSpanningTree(edges: List<Edge>): List<Edge> {
     val minSpanningTree = mutableListOf<Edge>()
     val disjointSet = DisjointSet<String>()
 
-    val sortedEdges = edges.sorted()
+    val sortedEdges = edges.sortedBy(Edge::weight)
     for (edge in sortedEdges) {
         val src = disjointSet.find(edge.src)
         val dest = disjointSet.find(edge.dest)
