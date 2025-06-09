@@ -1,5 +1,5 @@
 # Kotlin Algorithms and Data Structures
-This repository includes a collection of common algorithms, data structures and also LeetCode problems implemented in Kotlin language.
+This repository includes a collection of common algorithms, data structures and solutions for LeetCode problems implemented in Kotlin language.
 
 ## Project structure
 
